@@ -1,0 +1,5031 @@
+
+2026-06-16 06:13:51,156 — src.tracking — WARNING — codecarbon is not installed; continuing without energy logging.
+Using TensorFlow backend.
+2026-06-16 06:13:56,529 — __main__ — INFO — Loading tokenizer and model...
+
+
+
+Loading checkpoint shards: 100%|██████████| 4/4 [01:00<00:00, 15.09s/it]
+2026-06-16 06:15:06,991 — src.model — INFO — Model and tokenizer loaded successfully.
+2026-06-16 06:15:07,106 — __main__ — INFO — Loading dataset...
+2026-06-16 06:15:12,713 — data.loader — INFO — Dataset split into training (640 samples) and testing (160 samples).
+2026-06-16 06:15:12,715 — __main__ — INFO — Constructing system prompt for obfuscation...
+2026-06-16 06:15:12,719 — __main__ — INFO — Constructed system prompt for obfuscation: '<|pad|>You are a question-answering AI assistant. You will receive the question and you have to reply directly with the answer. Reply with a pirate accent.<|pad|>'
+2026-06-16 06:15:12,720 — __main__ — INFO — Initializing obfuscated system prompt with length: 10 tokens.
+2026-06-16 06:15:12,744 — __main__ — INFO — Precomputing model outputs (probs and IDs) using conventional system prompt...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Precomputing model outputs: 100%|██████████| 160/160 [05:14<00:00,  1.97s/it]
+2026-06-16 06:20:27,525 — src.output_generation — INFO — Max GPU memory occupied during precomputation: 8010 MB
+2026-06-16 06:20:28,298 — __main__ — INFO — Applying soft prompt obfuscation...
+2026-06-16 06:20:28,466 — __main__ — INFO — Token Window 1, Iteration: 1/10
+Win 1 Iter 1:   0%|          | 0/160 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 1: 100%|██████████| 160/160 [05:57<00:00,  2.23s/it]
+2026-06-16 06:26:25,978 — __main__ — INFO — Token Window 1, Iteration 1 Avg Loss: 0.4846
+2026-06-16 06:26:25,979 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 06:26:25,980 — __main__ — INFO — Token Window 1, Iteration: 2/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 2: 100%|██████████| 160/160 [05:56<00:00,  2.23s/it]
+2026-06-16 06:32:22,793 — __main__ — INFO — Token Window 1, Iteration 2 Avg Loss: 0.3085
+2026-06-16 06:32:22,795 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 06:32:22,795 — __main__ — INFO — Token Window 1, Iteration: 3/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 3: 100%|██████████| 160/160 [05:57<00:00,  2.23s/it]
+2026-06-16 06:38:19,836 — __main__ — INFO — Token Window 1, Iteration 3 Avg Loss: 0.2940
+2026-06-16 06:38:19,838 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 06:38:19,839 — __main__ — INFO — Token Window 1, Iteration: 4/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 4: 100%|██████████| 160/160 [05:57<00:00,  2.23s/it]
+2026-06-16 06:44:17,041 — __main__ — INFO — Token Window 1, Iteration 4 Avg Loss: 0.2867
+2026-06-16 06:44:17,043 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 06:44:17,043 — __main__ — INFO — Token Window 1, Iteration: 5/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 5: 100%|██████████| 160/160 [05:56<00:00,  2.23s/it]
+2026-06-16 06:50:13,831 — __main__ — INFO — Token Window 1, Iteration 5 Avg Loss: 0.2819
+2026-06-16 06:50:13,833 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 06:50:13,834 — __main__ — INFO — Token Window 1, Iteration: 6/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 6: 100%|██████████| 160/160 [05:56<00:00,  2.23s/it]
+2026-06-16 06:56:10,431 — __main__ — INFO — Token Window 1, Iteration 6 Avg Loss: 0.2777
+2026-06-16 06:56:10,433 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 06:56:10,434 — __main__ — INFO — Token Window 1, Iteration: 7/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 7: 100%|██████████| 160/160 [05:57<00:00,  2.23s/it]
+2026-06-16 07:02:07,476 — __main__ — INFO — Token Window 1, Iteration 7 Avg Loss: 0.2737
+2026-06-16 07:02:07,478 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 07:02:07,478 — __main__ — INFO — Token Window 1, Iteration: 8/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 8: 100%|██████████| 160/160 [05:57<00:00,  2.23s/it]
+2026-06-16 07:08:04,767 — __main__ — INFO — Token Window 1, Iteration 8 Avg Loss: 0.2707
+2026-06-16 07:08:04,769 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 07:08:04,769 — __main__ — INFO — Token Window 1, Iteration: 9/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 9: 100%|██████████| 160/160 [05:56<00:00,  2.23s/it]
+2026-06-16 07:14:01,441 — __main__ — INFO — Token Window 1, Iteration 9 Avg Loss: 0.2676
+2026-06-16 07:14:01,443 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 07:14:01,443 — __main__ — INFO — Token Window 1, Iteration: 10/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 1 Iter 10: 100%|██████████| 160/160 [05:57<00:00,  2.23s/it]
+2026-06-16 07:19:58,975 — __main__ — INFO — Token Window 1, Iteration 10 Avg Loss: 0.2653
+2026-06-16 07:19:58,976 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 07:19:58,977 — __main__ — INFO — Finished token window 1. Cumulative true tokens appended: 5. Total cumulative: 5
+2026-06-16 07:19:59,267 — __main__ — INFO — Token Window 2, Iteration: 1/10
+Win 2 Iter 1:   0%|          | 0/160 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 1: 100%|██████████| 160/160 [06:14<00:00,  2.34s/it]
+2026-06-16 07:26:14,227 — __main__ — INFO — Token Window 2, Iteration 1 Avg Loss: 0.2534
+2026-06-16 07:26:14,229 — __main__ — INFO — Max GPU Utilization: 35122 MB
+2026-06-16 07:26:14,230 — __main__ — INFO — Token Window 2, Iteration: 2/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 2: 100%|██████████| 160/160 [06:14<00:00,  2.34s/it]
+2026-06-16 07:32:28,762 — __main__ — INFO — Token Window 2, Iteration 2 Avg Loss: 0.2158
+2026-06-16 07:32:28,764 — __main__ — INFO — Max GPU Utilization: 36126 MB
+2026-06-16 07:32:28,765 — __main__ — INFO — Token Window 2, Iteration: 3/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 3: 100%|██████████| 160/160 [06:14<00:00,  2.34s/it]
+2026-06-16 07:38:43,719 — __main__ — INFO — Token Window 2, Iteration 3 Avg Loss: 0.2028
+2026-06-16 07:38:43,721 — __main__ — INFO — Max GPU Utilization: 36126 MB
+2026-06-16 07:38:43,721 — __main__ — INFO — Token Window 2, Iteration: 4/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 4: 100%|██████████| 160/160 [06:14<00:00,  2.34s/it]
+2026-06-16 07:44:58,287 — __main__ — INFO — Token Window 2, Iteration 4 Avg Loss: 0.1951
+2026-06-16 07:44:58,289 — __main__ — INFO — Max GPU Utilization: 36126 MB
+2026-06-16 07:44:58,289 — __main__ — INFO — Token Window 2, Iteration: 5/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 5: 100%|██████████| 160/160 [06:14<00:00,  2.34s/it]
+2026-06-16 07:51:13,007 — __main__ — INFO — Token Window 2, Iteration 5 Avg Loss: 0.1905
+2026-06-16 07:51:13,008 — __main__ — INFO — Max GPU Utilization: 36126 MB
+2026-06-16 07:51:13,009 — __main__ — INFO — Token Window 2, Iteration: 6/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 6: 100%|██████████| 160/160 [06:14<00:00,  2.34s/it]
+2026-06-16 07:57:27,374 — __main__ — INFO — Token Window 2, Iteration 6 Avg Loss: 0.1857
+2026-06-16 07:57:27,376 — __main__ — INFO — Max GPU Utilization: 36126 MB
+2026-06-16 07:57:27,377 — __main__ — INFO — Token Window 2, Iteration: 7/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 7: 100%|██████████| 160/160 [06:15<00:00,  2.35s/it]
+2026-06-16 08:03:42,615 — __main__ — INFO — Token Window 2, Iteration 7 Avg Loss: 0.1824
+2026-06-16 08:03:42,617 — __main__ — INFO — Max GPU Utilization: 36126 MB
+2026-06-16 08:03:42,618 — __main__ — INFO — Token Window 2, Iteration: 8/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 8: 100%|██████████| 160/160 [06:18<00:00,  2.37s/it]
+2026-06-16 08:10:01,165 — __main__ — INFO — Token Window 2, Iteration 8 Avg Loss: 0.1797
+2026-06-16 08:10:01,166 — __main__ — INFO — Max GPU Utilization: 36126 MB
+2026-06-16 08:10:01,167 — __main__ — INFO — Token Window 2, Iteration: 9/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 9: 100%|██████████| 160/160 [06:18<00:00,  2.36s/it]
+2026-06-16 08:16:19,341 — __main__ — INFO — Token Window 2, Iteration 9 Avg Loss: 0.1769
+2026-06-16 08:16:19,343 — __main__ — INFO — Max GPU Utilization: 36126 MB
+2026-06-16 08:16:19,344 — __main__ — INFO — Token Window 2, Iteration: 10/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 2 Iter 10: 100%|██████████| 160/160 [06:17<00:00,  2.36s/it]
+2026-06-16 08:22:37,315 — __main__ — INFO — Token Window 2, Iteration 10 Avg Loss: 0.1749
+2026-06-16 08:22:37,316 — __main__ — INFO — Max GPU Utilization: 36126 MB
+2026-06-16 08:22:37,317 — __main__ — INFO — Finished token window 2. Cumulative true tokens appended: 5. Total cumulative: 10
+2026-06-16 08:22:37,613 — __main__ — INFO — Token Window 3, Iteration: 1/10
+Win 3 Iter 1:   0%|          | 0/160 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Win 3 Iter 1: 100%|██████████| 160/160 [06:25<00:00,  2.41s/it]
+2026-06-16 08:29:03,335 — __main__ — INFO — Token Window 3, Iteration 1 Avg Loss: 0.2293
+2026-06-16 08:29:03,337 — __main__ — INFO — Max GPU Utilization: 37130 MB
+2026-06-16 08:29:03,338 — __main__ — INFO — Token Window 3, Iteration: 2/10
+Win 3 Iter 2:   1%|          | 1/160 [00:02<06:17,  2.37s/it]
+Win 3 Iter 2:   1%|▏         | 2/160 [00:04<06:13,  2.36s/it]
+Win 3 Iter 2:   2%|▏         | 3/160 [00:07<06:09,  2.35s/it]
+Win 3 Iter 2:   2%|▎         | 4/160 [00:09<06:05,  2.34s/it]
+Win 3 Iter 2:   3%|▎         | 5/160 [00:11<06:01,  2.33s/it]
+Win 3 Iter 2:   4%|▍         | 6/160 [00:14<06:02,  2.35s/it]
+Win 3 Iter 2:   4%|▍         | 7/160 [00:16<06:04,  2.38s/it]
+Win 3 Iter 2:   5%|▌         | 8/160 [00:18<06:02,  2.38s/it]
+Win 3 Iter 2:   6%|▌         | 9/160 [00:21<05:57,  2.37s/it]
+Win 3 Iter 2:   6%|▋         | 10/160 [00:23<05:59,  2.40s/it]
+Win 3 Iter 2:   7%|▋         | 11/160 [00:26<06:01,  2.42s/it]
+Win 3 Iter 2:   8%|▊         | 12/160 [00:28<05:54,  2.39s/it]
+Win 3 Iter 2:   8%|▊         | 13/160 [00:31<06:12,  2.53s/it]
+Win 3 Iter 2:   9%|▉         | 14/160 [00:33<05:59,  2.47s/it]
+Win 3 Iter 2:   9%|▉         | 15/160 [00:36<05:52,  2.43s/it]
+Win 3 Iter 2:  10%|█         | 16/160 [00:38<06:00,  2.51s/it]
+Win 3 Iter 2:  11%|█         | 17/160 [00:41<05:50,  2.45s/it]
+Win 3 Iter 2:  11%|█▏        | 18/160 [00:43<05:50,  2.47s/it]
+Win 3 Iter 2:  12%|█▏        | 19/160 [00:46<05:50,  2.49s/it]
+Win 3 Iter 2:  12%|█▎        | 20/160 [00:48<05:45,  2.47s/it]
+Win 3 Iter 2:  13%|█▎        | 21/160 [00:51<05:48,  2.51s/it]
+Win 3 Iter 2:  14%|█▍        | 22/160 [00:53<05:40,  2.46s/it]
+Win 3 Iter 2:  14%|█▍        | 23/160 [00:55<05:35,  2.45s/it]
+Win 3 Iter 2:  15%|█▌        | 24/160 [00:58<05:29,  2.42s/it]
+Win 3 Iter 2:  16%|█▌        | 25/160 [01:00<05:29,  2.44s/it]
+Win 3 Iter 2:  16%|█▋        | 26/160 [01:03<05:23,  2.41s/it]
+Win 3 Iter 2:  17%|█▋        | 27/160 [01:05<05:22,  2.42s/it]
+Win 3 Iter 2:  18%|█▊        | 28/160 [01:07<05:14,  2.38s/it]
+Win 3 Iter 2:  18%|█▊        | 29/160 [01:10<05:09,  2.36s/it]
+Win 3 Iter 2:  19%|█▉        | 30/160 [01:12<05:04,  2.34s/it]
+Win 3 Iter 2:  19%|█▉        | 31/160 [01:14<05:10,  2.41s/it]
+Win 3 Iter 2:  20%|██        | 32/160 [01:17<05:05,  2.39s/it]
+Win 3 Iter 2:  21%|██        | 33/160 [01:19<05:03,  2.39s/it]
+Win 3 Iter 2:  21%|██▏       | 34/160 [01:22<05:06,  2.43s/it]
+Win 3 Iter 2:  22%|██▏       | 35/160 [01:24<05:05,  2.44s/it]
+Win 3 Iter 2:  22%|██▎       | 36/160 [01:27<05:03,  2.45s/it]
+Win 3 Iter 2:  23%|██▎       | 37/160 [01:29<04:59,  2.44s/it]
+Win 3 Iter 2:  24%|██▍       | 38/160 [01:31<04:53,  2.41s/it]
+Win 3 Iter 2:  24%|██▍       | 39/160 [01:34<04:49,  2.39s/it]
+Win 3 Iter 2:  25%|██▌       | 40/160 [01:36<04:46,  2.38s/it]
+Win 3 Iter 2:  26%|██▌       | 41/160 [01:39<04:54,  2.47s/it]
+Win 3 Iter 2:  26%|██▋       | 42/160 [01:41<04:48,  2.44s/it]
+Win 3 Iter 2:  27%|██▋       | 43/160 [01:44<04:44,  2.43s/it]
+Win 3 Iter 2:  28%|██▊       | 44/160 [01:46<04:37,  2.39s/it]
+Win 3 Iter 2:  28%|██▊       | 45/160 [01:48<04:38,  2.42s/it]
+Win 3 Iter 2:  29%|██▉       | 46/160 [01:51<04:33,  2.40s/it]
+Win 3 Iter 2:  29%|██▉       | 47/160 [01:53<04:28,  2.38s/it]
+Win 3 Iter 2:  30%|███       | 48/160 [01:55<04:24,  2.36s/it]
+Win 3 Iter 2:  31%|███       | 49/160 [01:58<04:22,  2.37s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+Win 3 Iter 2:  31%|███▏      | 50/160 [02:00<04:22,  2.39s/it]
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:35:31,102 — __main__ — INFO — Token Window 3, Iteration: 3/10 Loss: 0.2031
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:41:57,333 — __main__ — INFO — Token Window 3, Iteration: 4/10 Loss: 0.1937
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:48:22,867 — __main__ — INFO — Token Window 3, Iteration: 5/10 Loss: 0.1880
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 08:54:50,749 — __main__ — INFO — Token Window 3, Iteration: 6/10 Loss: 0.1830
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:01:17,265 — __main__ — INFO — Token Window 3, Iteration: 7/10 Loss: 0.1793
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:07:42,046 — __main__ — INFO — Token Window 3, Iteration: 8/10 Loss: 0.1768
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:14:09,378 — __main__ — INFO — Token Window 3, Iteration: 9/10 Loss: 0.1738
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:20:37,370 — __main__ — INFO — Token Window 3, Iteration: 10/10Loss: 0.1722
+2026-06-16 09:27:02,249 — __main__ — INFO — Results saved to /home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/results/soft_pirate_obfuscation
+2026-06-16 09:27:02,249 — __main__ — INFO — Results saved to /home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/results/soft_pirate_obfuscation

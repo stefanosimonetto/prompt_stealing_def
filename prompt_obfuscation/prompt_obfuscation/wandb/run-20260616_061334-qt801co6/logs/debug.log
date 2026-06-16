@@ -1,0 +1,35 @@
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_setup.py:_flush():76] Current SDK version is 0.17.3
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_setup.py:_flush():76] Configure stats pid to 3534591
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_setup.py:_flush():76] Loading settings from /home/simonettos/.config/wandb/settings
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_setup.py:_flush():76] Loading settings from /home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/wandb/settings
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'prompt_obfuscation/prompt_obfuscation/obfuscate.py', 'program_abspath': '/home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/obfuscate.py', 'program': '/home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/obfuscate.py'}
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_setup.py:_flush():76] Applying login settings: {}
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_init.py:_log_setup():520] Logging user logs to /home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/wandb/run-20260616_061334-qt801co6/logs/debug.log
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_init.py:_log_setup():521] Logging internal logs to /home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/wandb/run-20260616_061334-qt801co6/logs/debug-internal.log
+2026-06-16 06:13:34,167 INFO    MainThread:3534591 [wandb_init.py:init():560] calling init triggers
+2026-06-16 06:13:34,168 INFO    MainThread:3534591 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'model_name': 'meta-llama/Meta-Llama-3.1-8B-Instruct', 'quantize_4bit': True, 'quantize_8bit': False, 'system_prompt': None, 'style': 'pirate', 'strategy': 'prompt_obfuscation_soft', 'obfuscation_method': 'soft', 'batch_size': 4, 'dataset_size': 800, 'dataset_name': 'truthfulqa', 'task_hints': False, 'obf_sys_prompt_len': 10, 'output_token_count': 15, 'window_size': 5, 'lr': 0.01, 'optimizer_iter': 10, 'topk': 3, 'search_width': 10, 'n_replace': 1, 'ce_weight': 1.0, 'kl_weight': 1.0, 'seed': 42, 'track_energy': True}
+2026-06-16 06:13:34,168 INFO    MainThread:3534591 [wandb_init.py:init():610] starting backend
+2026-06-16 06:13:34,168 INFO    MainThread:3534591 [wandb_init.py:init():614] setting up manager
+2026-06-16 06:13:34,170 INFO    MainThread:3534591 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2026-06-16 06:13:34,173 INFO    MainThread:3534591 [wandb_init.py:init():622] backend started and connected
+2026-06-16 06:13:34,179 INFO    MainThread:3534591 [wandb_init.py:init():711] updated telemetry
+2026-06-16 06:13:34,225 INFO    MainThread:3534591 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2026-06-16 06:13:34,776 INFO    MainThread:3534591 [wandb_run.py:_on_init():2402] communicating current version
+2026-06-16 06:13:34,880 INFO    MainThread:3534591 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.27.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2026-06-16 06:13:34,881 INFO    MainThread:3534591 [wandb_init.py:init():795] starting run threads in backend
+2026-06-16 06:13:51,129 INFO    MainThread:3534591 [wandb_run.py:_console_start():2380] atexit reg
+2026-06-16 06:13:51,130 INFO    MainThread:3534591 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2026-06-16 06:13:51,130 INFO    MainThread:3534591 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2026-06-16 06:13:51,131 INFO    MainThread:3534591 [wandb_run.py:_redirect():2325] Redirects installed.
+2026-06-16 06:13:51,155 INFO    MainThread:3534591 [wandb_init.py:init():838] run started, returning control to user process
+2026-06-16 09:27:02,250 INFO    MainThread:3534591 [wandb_run.py:_finish():2109] finishing run stefanosimonetto98/prompt-vector-energy/qt801co6
+2026-06-16 09:27:02,250 INFO    MainThread:3534591 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2026-06-16 09:27:02,251 INFO    MainThread:3534591 [wandb_run.py:_restore():2332] restore
+2026-06-16 09:27:02,251 INFO    MainThread:3534591 [wandb_run.py:_restore():2338] restore done
+2026-06-16 09:27:14,827 INFO    MainThread:3534591 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2026-06-16 09:27:14,828 INFO    MainThread:3534591 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2026-06-16 09:27:14,842 INFO    MainThread:3534591 [wandb_run.py:_footer_sync_info():3950] logging synced files

@@ -19,6 +19,5 @@
     "n_replace": 1,
     "ce_weight": 1.0,
     "kl_weight": 1.0,
-    "seed": 42,
-    "best_candidate_idx": 21
+    "seed": 42
 }

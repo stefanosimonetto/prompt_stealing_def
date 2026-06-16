@@ -1,0 +1,1 @@
+{"train_loss": 0.17020902649965136, "token_window": 3, "iteration": 10, "global_iteration": 30, "gpu_memory_max_mb": 37130, "_timestamp": 1781594822.249613, "_runtime": 11608.075627088547, "_step": 30, "strategy": "prompt_obfuscation_soft", "runtime_s": 11611.25772067206, "final_train_loss": 0.17020902649965136, "num_logged_iterations": 30, "_wandb": {"runtime": 11607}}

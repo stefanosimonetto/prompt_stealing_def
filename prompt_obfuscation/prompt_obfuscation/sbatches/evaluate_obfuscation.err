@@ -1,0 +1,30 @@
+	Adding nVidia Cuda Toolkit 11.8
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+/home/simonettos/.local/lib/python3.9/site-packages/pandas/core/computation/expressions.py:21: UserWarning: Pandas requires version '2.8.4' or newer of 'numexpr' (version '2.8.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/home/simonettos/.local/lib/python3.9/site-packages/pandas/core/arrays/masked.py:60: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.4' currently installed).
+  from pandas.core import (
+Traceback (most recent call last):
+  File "/home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/evaluate_obfuscation.py", line 18, in <module>
+    from src.output_similarity import (AVAILABLE_METRICS, DERIVED_METRICS_SOURCES,
+  File "/home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/src/output_similarity.py", line 4, in <module>
+    import bert_score
+ModuleNotFoundError: No module named 'bert_score'

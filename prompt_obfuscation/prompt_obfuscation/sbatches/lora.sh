@@ -17,7 +17,7 @@ export TORCH_USE_CUDA_DSA
 source /etc/profile.d/modules.sh
 module load nvidia/cuda-11.8
 
-cd /home/simonettos/prompt_stealing/prompt_obfuscation/prompt_obfuscation/
+cd /home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/
 conda activate prompt_obfuscation
 
-python3 finetune.py --style pirate --dataset_name truthfulqa --output_dir "results/pirate_finetuning" 
+python3 finetune.py --style pirate --dataset_name truthfulqa --output_dir "results/pirate_finetuning" --track_energy

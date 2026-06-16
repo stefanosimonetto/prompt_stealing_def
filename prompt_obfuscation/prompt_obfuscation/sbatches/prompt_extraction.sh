@@ -17,7 +17,7 @@ export TORCH_USE_CUDA_DSA
 source /etc/profile.d/modules.sh
 module load nvidia/cuda-11.8
 
-cd /home/simonettos/prompt_stealing/prompt_obfuscation/prompt_obfuscation/
+cd /home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/
 conda activate prompt_obfuscation
 
 # python3 prompt_extraction.py --results_dir "results/soft_pirate_obfuscation" --extraction_prompts_file "extraction_prompts/gpt4_generated.json" --tensor_file "results/soft_pirate_obfuscation/best_candidate.pt" --output_filename "extraction_output_obfuscated.json"

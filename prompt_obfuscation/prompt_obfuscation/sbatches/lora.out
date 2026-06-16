@@ -1,346 +1,346 @@
-trainable params: 6,815,744 || all params: 8,037,085,184 || trainable%: 0.0848
-GPU Memory at TRAIN BEGIN: 37870 MB
-GPU Memory at EPOCH 0 BEGIN: 37870 MB
-{'loss': 2.8544, 'grad_norm': 7.21076774597168, 'learning_rate': 0.0002, 'epoch': 0.01}
-  Step 10: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 1.2638, 'grad_norm': 4.480645179748535, 'learning_rate': 0.00019887500000000002, 'epoch': 0.06}
-  Step 20: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.3893, 'grad_norm': 1.9332795143127441, 'learning_rate': 0.00019762500000000002, 'epoch': 0.12}
-  Step 30: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2973, 'grad_norm': 3.2213263511657715, 'learning_rate': 0.00019637500000000002, 'epoch': 0.19}
-  Step 40: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2231, 'grad_norm': 1.6885782480239868, 'learning_rate': 0.000195125, 'epoch': 0.25}
-  Step 50: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2308, 'grad_norm': 3.0005533695220947, 'learning_rate': 0.000193875, 'epoch': 0.31}
-  Step 60: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2386, 'grad_norm': 1.6294951438903809, 'learning_rate': 0.000192625, 'epoch': 0.38}
-  Step 70: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2196, 'grad_norm': 3.074620008468628, 'learning_rate': 0.000191375, 'epoch': 0.44}
-  Step 80: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.188, 'grad_norm': 1.4180415868759155, 'learning_rate': 0.00019012500000000003, 'epoch': 0.5}
-  Step 90: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.196, 'grad_norm': 1.233069658279419, 'learning_rate': 0.000188875, 'epoch': 0.56}
-  Step 100: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2663, 'grad_norm': 1.6070144176483154, 'learning_rate': 0.000187625, 'epoch': 0.62}
-  Step 110: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2181, 'grad_norm': 1.629045844078064, 'learning_rate': 0.00018637500000000002, 'epoch': 0.69}
-  Step 120: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2427, 'grad_norm': 1.2124630212783813, 'learning_rate': 0.00018512500000000001, 'epoch': 0.75}
-  Step 130: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.158, 'grad_norm': 1.703873872756958, 'learning_rate': 0.000183875, 'epoch': 0.81}
-  Step 140: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2293, 'grad_norm': 1.6843253374099731, 'learning_rate': 0.000182625, 'epoch': 0.88}
-  Step 150: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.2377, 'grad_norm': 0.8200052380561829, 'learning_rate': 0.000181375, 'epoch': 0.94}
-  Step 160: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1452, 'grad_norm': 1.3848968744277954, 'learning_rate': 0.000180125, 'epoch': 1.0}
-GPU Memory at EPOCH 1 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-GPU Memory at EPOCH 1 BEGIN: 37870 MB
-  Step 170: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1188, 'grad_norm': 1.8077800273895264, 'learning_rate': 0.00017887500000000002, 'epoch': 1.06}
-  Step 180: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1512, 'grad_norm': 1.546854019165039, 'learning_rate': 0.00017762500000000002, 'epoch': 1.12}
-  Step 190: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1273, 'grad_norm': 1.315872311592102, 'learning_rate': 0.000176375, 'epoch': 1.19}
-  Step 200: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1212, 'grad_norm': 2.1190764904022217, 'learning_rate': 0.00017512500000000001, 'epoch': 1.25}
-  Step 210: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1041, 'grad_norm': 1.3300057649612427, 'learning_rate': 0.000173875, 'epoch': 1.31}
-  Step 220: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1348, 'grad_norm': 4.237227439880371, 'learning_rate': 0.000172625, 'epoch': 1.38}
-  Step 230: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1145, 'grad_norm': 1.9145675897598267, 'learning_rate': 0.00017137500000000003, 'epoch': 1.44}
-  Step 240: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1539, 'grad_norm': 0.6570205092430115, 'learning_rate': 0.000170125, 'epoch': 1.5}
-  Step 250: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1364, 'grad_norm': 1.1998053789138794, 'learning_rate': 0.000168875, 'epoch': 1.56}
-  Step 260: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1134, 'grad_norm': 1.6403824090957642, 'learning_rate': 0.00016762500000000002, 'epoch': 1.62}
-  Step 270: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1359, 'grad_norm': 0.9001412987709045, 'learning_rate': 0.00016637500000000002, 'epoch': 1.69}
-  Step 280: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1394, 'grad_norm': 2.0292580127716064, 'learning_rate': 0.00016512500000000002, 'epoch': 1.75}
-  Step 290: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1211, 'grad_norm': 1.2250761985778809, 'learning_rate': 0.000163875, 'epoch': 1.81}
-  Step 300: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1391, 'grad_norm': 1.2208105325698853, 'learning_rate': 0.000162625, 'epoch': 1.88}
-  Step 310: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1231, 'grad_norm': 2.595309257507324, 'learning_rate': 0.000161375, 'epoch': 1.94}
-  Step 320: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.1244, 'grad_norm': 0.8471712470054626, 'learning_rate': 0.000160125, 'epoch': 2.0}
-GPU Memory at EPOCH 2 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-GPU Memory at EPOCH 2 BEGIN: 37870 MB
-  Step 330: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0572, 'grad_norm': 0.6632686257362366, 'learning_rate': 0.00015887500000000003, 'epoch': 2.06}
-  Step 340: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0958, 'grad_norm': 3.4804418087005615, 'learning_rate': 0.000157625, 'epoch': 2.12}
-  Step 350: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0618, 'grad_norm': 1.1596744060516357, 'learning_rate': 0.000156375, 'epoch': 2.19}
-  Step 360: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0546, 'grad_norm': 0.29124367237091064, 'learning_rate': 0.00015512500000000002, 'epoch': 2.25}
-  Step 370: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0501, 'grad_norm': 0.7035648226737976, 'learning_rate': 0.000153875, 'epoch': 2.31}
-  Step 380: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0576, 'grad_norm': 0.3983606696128845, 'learning_rate': 0.000152625, 'epoch': 2.38}
-  Step 390: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0726, 'grad_norm': 1.4549362659454346, 'learning_rate': 0.000151375, 'epoch': 2.44}
-  Step 400: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0758, 'grad_norm': 2.1945133209228516, 'learning_rate': 0.000150125, 'epoch': 2.5}
-  Step 410: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0875, 'grad_norm': 2.1419479846954346, 'learning_rate': 0.000148875, 'epoch': 2.56}
-  Step 420: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0574, 'grad_norm': 0.6945223212242126, 'learning_rate': 0.00014762500000000002, 'epoch': 2.62}
-  Step 430: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0787, 'grad_norm': 1.3696796894073486, 'learning_rate': 0.00014637500000000002, 'epoch': 2.69}
-  Step 440: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0662, 'grad_norm': 1.2236448526382446, 'learning_rate': 0.000145125, 'epoch': 2.75}
-  Step 450: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0578, 'grad_norm': 0.7752716541290283, 'learning_rate': 0.00014387500000000001, 'epoch': 2.81}
-  Step 460: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.051, 'grad_norm': 1.2912096977233887, 'learning_rate': 0.000142625, 'epoch': 2.88}
-  Step 470: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0799, 'grad_norm': 0.7524386644363403, 'learning_rate': 0.000141375, 'epoch': 2.94}
-  Step 480: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0698, 'grad_norm': 1.671201229095459, 'learning_rate': 0.000140125, 'epoch': 3.0}
-GPU Memory at EPOCH 3 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-GPU Memory at EPOCH 3 BEGIN: 37870 MB
-  Step 490: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0429, 'grad_norm': 0.665732204914093, 'learning_rate': 0.000138875, 'epoch': 3.06}
-  Step 500: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0399, 'grad_norm': 1.1678096055984497, 'learning_rate': 0.000137625, 'epoch': 3.12}
-  Step 510: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0537, 'grad_norm': 0.980859637260437, 'learning_rate': 0.00013637500000000002, 'epoch': 3.19}
-  Step 520: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0424, 'grad_norm': 1.393083095550537, 'learning_rate': 0.00013512500000000002, 'epoch': 3.25}
-  Step 530: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0279, 'grad_norm': 0.4844314455986023, 'learning_rate': 0.00013387500000000002, 'epoch': 3.31}
-  Step 540: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0454, 'grad_norm': 1.714858055114746, 'learning_rate': 0.000132625, 'epoch': 3.38}
-  Step 550: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0211, 'grad_norm': 0.5854313969612122, 'learning_rate': 0.000131375, 'epoch': 3.44}
-  Step 560: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0433, 'grad_norm': 0.5273988842964172, 'learning_rate': 0.000130125, 'epoch': 3.5}
-  Step 570: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0251, 'grad_norm': 1.888187050819397, 'learning_rate': 0.000128875, 'epoch': 3.56}
-  Step 580: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0463, 'grad_norm': 1.47422456741333, 'learning_rate': 0.00012762500000000003, 'epoch': 3.62}
-  Step 590: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0239, 'grad_norm': 0.3524508774280548, 'learning_rate': 0.000126375, 'epoch': 3.69}
-  Step 600: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.033, 'grad_norm': 0.17026318609714508, 'learning_rate': 0.000125125, 'epoch': 3.75}
-  Step 610: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0399, 'grad_norm': 2.244464635848999, 'learning_rate': 0.00012387500000000002, 'epoch': 3.81}
-  Step 620: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0307, 'grad_norm': 0.20185460150241852, 'learning_rate': 0.000122625, 'epoch': 3.88}
-  Step 630: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0446, 'grad_norm': 0.24782145023345947, 'learning_rate': 0.00012137500000000002, 'epoch': 3.94}
-  Step 640: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0491, 'grad_norm': 0.2625148594379425, 'learning_rate': 0.00012012499999999999, 'epoch': 4.0}
-GPU Memory at EPOCH 4 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-GPU Memory at EPOCH 4 BEGIN: 37870 MB
-  Step 650: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0226, 'grad_norm': 0.10939791798591614, 'learning_rate': 0.000118875, 'epoch': 4.06}
-  Step 660: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0297, 'grad_norm': 0.9897432923316956, 'learning_rate': 0.00011762500000000001, 'epoch': 4.12}
-  Step 670: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0249, 'grad_norm': 1.0441008806228638, 'learning_rate': 0.00011637500000000001, 'epoch': 4.19}
-  Step 680: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0172, 'grad_norm': 1.4473192691802979, 'learning_rate': 0.00011512500000000002, 'epoch': 4.25}
-  Step 690: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0157, 'grad_norm': 0.15969128906726837, 'learning_rate': 0.000113875, 'epoch': 4.31}
-  Step 700: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0135, 'grad_norm': 0.8554472327232361, 'learning_rate': 0.000112625, 'epoch': 4.38}
-  Step 710: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0121, 'grad_norm': 1.0740811824798584, 'learning_rate': 0.00011137500000000001, 'epoch': 4.44}
-  Step 720: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0225, 'grad_norm': 1.1186274290084839, 'learning_rate': 0.00011012500000000001, 'epoch': 4.5}
-  Step 730: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0197, 'grad_norm': 0.09492776542901993, 'learning_rate': 0.00010887500000000002, 'epoch': 4.56}
-  Step 740: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0363, 'grad_norm': 1.5982118844985962, 'learning_rate': 0.000107625, 'epoch': 4.62}
-  Step 750: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0208, 'grad_norm': 0.8239337205886841, 'learning_rate': 0.000106375, 'epoch': 4.69}
-  Step 760: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0235, 'grad_norm': 1.6032764911651611, 'learning_rate': 0.00010512500000000001, 'epoch': 4.75}
-  Step 770: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0183, 'grad_norm': 0.27145078778266907, 'learning_rate': 0.00010387500000000002, 'epoch': 4.81}
-  Step 780: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0155, 'grad_norm': 0.21305246651172638, 'learning_rate': 0.00010262500000000001, 'epoch': 4.88}
-  Step 790: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0412, 'grad_norm': 3.188865900039673, 'learning_rate': 0.000101375, 'epoch': 4.94}
-  Step 800: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0137, 'grad_norm': 0.5446535348892212, 'learning_rate': 0.00010012500000000001, 'epoch': 5.0}
-GPU Memory at EPOCH 5 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-GPU Memory at EPOCH 5 BEGIN: 37870 MB
-  Step 810: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0149, 'grad_norm': 0.45529496669769287, 'learning_rate': 9.8875e-05, 'epoch': 5.06}
-  Step 820: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0061, 'grad_norm': 0.08728566020727158, 'learning_rate': 9.7625e-05, 'epoch': 5.12}
-  Step 830: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0043, 'grad_norm': 0.17245283722877502, 'learning_rate': 9.6375e-05, 'epoch': 5.19}
-  Step 840: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0186, 'grad_norm': 2.422637701034546, 'learning_rate': 9.512500000000001e-05, 'epoch': 5.25}
-  Step 850: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0066, 'grad_norm': 0.10024090111255646, 'learning_rate': 9.3875e-05, 'epoch': 5.31}
-  Step 860: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0158, 'grad_norm': 0.31574320793151855, 'learning_rate': 9.2625e-05, 'epoch': 5.38}
-  Step 870: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0074, 'grad_norm': 0.027903562411665916, 'learning_rate': 9.1375e-05, 'epoch': 5.44}
-  Step 880: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0022, 'grad_norm': 0.16000057756900787, 'learning_rate': 9.012500000000001e-05, 'epoch': 5.5}
-  Step 890: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0332, 'grad_norm': 0.15578874945640564, 'learning_rate': 8.8875e-05, 'epoch': 5.56}
-  Step 900: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0064, 'grad_norm': 0.4121295213699341, 'learning_rate': 8.7625e-05, 'epoch': 5.62}
-  Step 910: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0089, 'grad_norm': 1.4911525249481201, 'learning_rate': 8.637500000000001e-05, 'epoch': 5.69}
-  Step 920: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0043, 'grad_norm': 0.04583818092942238, 'learning_rate': 8.5125e-05, 'epoch': 5.75}
-  Step 930: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0034, 'grad_norm': 0.0653570294380188, 'learning_rate': 8.3875e-05, 'epoch': 5.81}
-  Step 940: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0042, 'grad_norm': 0.016384664922952652, 'learning_rate': 8.2625e-05, 'epoch': 5.88}
-  Step 950: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0153, 'grad_norm': 0.15492212772369385, 'learning_rate': 8.1375e-05, 'epoch': 5.94}
-  Step 960: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0066, 'grad_norm': 2.4232938289642334, 'learning_rate': 8.012500000000001e-05, 'epoch': 6.0}
-GPU Memory at EPOCH 6 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-GPU Memory at EPOCH 6 BEGIN: 37870 MB
-  Step 970: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0041, 'grad_norm': 0.10586348176002502, 'learning_rate': 7.887499999999999e-05, 'epoch': 6.06}
-  Step 980: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0021, 'grad_norm': 0.04586492106318474, 'learning_rate': 7.7625e-05, 'epoch': 6.12}
-  Step 990: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0098, 'grad_norm': 0.02886824496090412, 'learning_rate': 7.637500000000001e-05, 'epoch': 6.19}
-  Step 1000: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0025, 'grad_norm': 0.03620922937989235, 'learning_rate': 7.5125e-05, 'epoch': 6.25}
-  Step 1010: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0014, 'grad_norm': 0.02462901547551155, 'learning_rate': 7.3875e-05, 'epoch': 6.31}
-  Step 1020: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0035, 'grad_norm': 0.04511023685336113, 'learning_rate': 7.2625e-05, 'epoch': 6.38}
-  Step 1030: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.002, 'grad_norm': 0.12582014501094818, 'learning_rate': 7.1375e-05, 'epoch': 6.44}
-  Step 1040: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0037, 'grad_norm': 0.8121814727783203, 'learning_rate': 7.012500000000001e-05, 'epoch': 6.5}
-  Step 1050: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0021, 'grad_norm': 0.35505953431129456, 'learning_rate': 6.887500000000001e-05, 'epoch': 6.56}
-  Step 1060: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0029, 'grad_norm': 0.8611277341842651, 'learning_rate': 6.7625e-05, 'epoch': 6.62}
-  Step 1070: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0022, 'grad_norm': 0.09059469401836395, 'learning_rate': 6.6375e-05, 'epoch': 6.69}
-  Step 1080: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0012, 'grad_norm': 0.0809265673160553, 'learning_rate': 6.5125e-05, 'epoch': 6.75}
-  Step 1090: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0009, 'grad_norm': 0.03856239840388298, 'learning_rate': 6.387500000000001e-05, 'epoch': 6.81}
-  Step 1100: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0208, 'grad_norm': 0.12661124765872955, 'learning_rate': 6.2625e-05, 'epoch': 6.88}
-  Step 1110: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.004, 'grad_norm': 0.041134919971227646, 'learning_rate': 6.1375e-05, 'epoch': 6.94}
-  Step 1120: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0073, 'grad_norm': 0.007031543180346489, 'learning_rate': 6.0125e-05, 'epoch': 7.0}
-GPU Memory at EPOCH 7 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-GPU Memory at EPOCH 7 BEGIN: 37870 MB
-  Step 1130: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0007, 'grad_norm': 0.005239959340542555, 'learning_rate': 5.8875e-05, 'epoch': 7.06}
-  Step 1140: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0014, 'grad_norm': 0.03230000659823418, 'learning_rate': 5.7625000000000005e-05, 'epoch': 7.12}
-  Step 1150: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0033, 'grad_norm': 0.04271511733531952, 'learning_rate': 5.6375e-05, 'epoch': 7.19}
-  Step 1160: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0013, 'grad_norm': 0.027774058282375336, 'learning_rate': 5.5125000000000005e-05, 'epoch': 7.25}
-  Step 1170: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0007, 'grad_norm': 0.04351772740483284, 'learning_rate': 5.3874999999999995e-05, 'epoch': 7.31}
-  Step 1180: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0012, 'grad_norm': 0.0437801368534565, 'learning_rate': 5.2625000000000005e-05, 'epoch': 7.38}
-  Step 1190: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0022, 'grad_norm': 0.01450230274349451, 'learning_rate': 5.137500000000001e-05, 'epoch': 7.44}
-  Step 1200: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0007, 'grad_norm': 0.032616980373859406, 'learning_rate': 5.0125e-05, 'epoch': 7.5}
-  Step 1210: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0008, 'grad_norm': 0.0252549946308136, 'learning_rate': 4.8875e-05, 'epoch': 7.56}
-  Step 1220: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0026, 'grad_norm': 0.05352727696299553, 'learning_rate': 4.7625000000000006e-05, 'epoch': 7.62}
-  Step 1230: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0027, 'grad_norm': 1.194877028465271, 'learning_rate': 4.6375e-05, 'epoch': 7.69}
-  Step 1240: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0005, 'grad_norm': 0.01014693733304739, 'learning_rate': 4.5125e-05, 'epoch': 7.75}
-  Step 1250: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0017, 'grad_norm': 0.04277008771896362, 'learning_rate': 4.3875e-05, 'epoch': 7.81}
-  Step 1260: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0009, 'grad_norm': 0.07521771639585495, 'learning_rate': 4.2625000000000006e-05, 'epoch': 7.88}
-  Step 1270: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0016, 'grad_norm': 0.017084240913391113, 'learning_rate': 4.1375e-05, 'epoch': 7.94}
-  Step 1280: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0008, 'grad_norm': 0.011258230544626713, 'learning_rate': 4.0125e-05, 'epoch': 8.0}
-GPU Memory at EPOCH 8 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-GPU Memory at EPOCH 8 BEGIN: 37870 MB
-  Step 1290: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0005, 'grad_norm': 0.007827953435480595, 'learning_rate': 3.8875e-05, 'epoch': 8.06}
-  Step 1300: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0005, 'grad_norm': 0.03269721195101738, 'learning_rate': 3.7625e-05, 'epoch': 8.12}
-  Step 1310: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0006, 'grad_norm': 0.02406083419919014, 'learning_rate': 3.6375e-05, 'epoch': 8.19}
-  Step 1320: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0033, 'grad_norm': 0.03705336153507233, 'learning_rate': 3.5125e-05, 'epoch': 8.25}
-  Step 1330: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0006, 'grad_norm': 0.03035522811114788, 'learning_rate': 3.3875000000000003e-05, 'epoch': 8.31}
-  Step 1340: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0007, 'grad_norm': 0.031019052490592003, 'learning_rate': 3.2625e-05, 'epoch': 8.38}
-  Step 1350: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0023, 'grad_norm': 0.004776655230671167, 'learning_rate': 3.1375e-05, 'epoch': 8.44}
-  Step 1360: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0009, 'grad_norm': 0.023421768099069595, 'learning_rate': 3.0125000000000004e-05, 'epoch': 8.5}
-  Step 1370: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0021, 'grad_norm': 0.004511921666562557, 'learning_rate': 2.8875e-05, 'epoch': 8.56}
-  Step 1380: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0006, 'grad_norm': 0.002015645382925868, 'learning_rate': 2.7625e-05, 'epoch': 8.62}
-  Step 1390: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0008, 'grad_norm': 0.023086242377758026, 'learning_rate': 2.6375e-05, 'epoch': 8.69}
-  Step 1400: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.001, 'grad_norm': 0.03736858069896698, 'learning_rate': 2.5124999999999997e-05, 'epoch': 8.75}
-  Step 1410: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0004, 'grad_norm': 0.013397455215454102, 'learning_rate': 2.3875e-05, 'epoch': 8.81}
-  Step 1420: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0005, 'grad_norm': 0.042146943509578705, 'learning_rate': 2.2625e-05, 'epoch': 8.88}
-  Step 1430: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0005, 'grad_norm': 0.00956367701292038, 'learning_rate': 2.1375e-05, 'epoch': 8.94}
-  Step 1440: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0007, 'grad_norm': 0.010047954507172108, 'learning_rate': 2.0125e-05, 'epoch': 9.0}
-GPU Memory at EPOCH 9 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-GPU Memory at EPOCH 9 BEGIN: 37870 MB
-  Step 1450: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0011, 'grad_norm': 0.007130251731723547, 'learning_rate': 1.8875e-05, 'epoch': 9.06}
-  Step 1460: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0004, 'grad_norm': 0.009235852397978306, 'learning_rate': 1.7625e-05, 'epoch': 9.12}
-  Step 1470: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0005, 'grad_norm': 0.009157178923487663, 'learning_rate': 1.6375e-05, 'epoch': 9.19}
-  Step 1480: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0006, 'grad_norm': 0.041493892669677734, 'learning_rate': 1.5125e-05, 'epoch': 9.25}
-  Step 1490: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0004, 'grad_norm': 0.007320919539779425, 'learning_rate': 1.3875000000000002e-05, 'epoch': 9.31}
-  Step 1500: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0006, 'grad_norm': 0.012630513869225979, 'learning_rate': 1.2625e-05, 'epoch': 9.38}
-  Step 1510: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0007, 'grad_norm': 0.029041428118944168, 'learning_rate': 1.1375e-05, 'epoch': 9.44}
-  Step 1520: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0005, 'grad_norm': 0.009318007156252861, 'learning_rate': 1.0125e-05, 'epoch': 9.5}
-  Step 1530: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0006, 'grad_norm': 0.027126409113407135, 'learning_rate': 8.875e-06, 'epoch': 9.56}
-  Step 1540: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0006, 'grad_norm': 0.029858877882361412, 'learning_rate': 7.625e-06, 'epoch': 9.62}
-  Step 1550: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0005, 'grad_norm': 0.011331410147249699, 'learning_rate': 6.375000000000001e-06, 'epoch': 9.69}
-  Step 1560: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0006, 'grad_norm': 0.009748566895723343, 'learning_rate': 5.125e-06, 'epoch': 9.75}
-  Step 1570: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0004, 'grad_norm': 0.014830382540822029, 'learning_rate': 3.875e-06, 'epoch': 9.81}
-  Step 1580: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0004, 'grad_norm': 0.01662788726389408, 'learning_rate': 2.625e-06, 'epoch': 9.88}
-  Step 1590: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0005, 'grad_norm': 0.016314014792442322, 'learning_rate': 1.3750000000000002e-06, 'epoch': 9.94}
-  Step 1600: GPU Mem: 37870 MB (Epoch Peak: 37870 MB, Overall Peak: 37870 MB)
-{'loss': 0.0008, 'grad_norm': 0.032696131616830826, 'learning_rate': 1.2500000000000002e-07, 'epoch': 10.0}
-GPU Memory at EPOCH 10 END: 37870 MB. Final Peak for this epoch: 37870 MB.
-{'train_runtime': 721.6521, 'train_samples_per_second': 8.869, 'train_steps_per_second': 2.217, 'train_loss': 0.057929316316731275, 'epoch': 10.0}
-GPU Memory at TRAIN END: 37870 MB
-OVERALL PEAK GPU Memory during training: 37870 MB
+trainable params: 6,815,744 || all params: 8,037,085,184 || trainable%: 0.08480367999045958
+GPU Memory at TRAIN BEGIN: 518 MB
+GPU Memory at EPOCH 0 BEGIN: 518 MB
+{'loss': 2.8658, 'grad_norm': 7.297912120819092, 'learning_rate': 0.00019987500000000002, 'epoch': 0.01}
+  Step 10: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 1.2624, 'grad_norm': 4.547779083251953, 'learning_rate': 0.00019875, 'epoch': 0.06}
+  Step 20: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.3819, 'grad_norm': 1.9000135660171509, 'learning_rate': 0.00019750000000000003, 'epoch': 0.12}
+  Step 30: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2935, 'grad_norm': 3.097957134246826, 'learning_rate': 0.00019625, 'epoch': 0.19}
+  Step 40: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2181, 'grad_norm': 1.5969345569610596, 'learning_rate': 0.000195, 'epoch': 0.25}
+  Step 50: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2277, 'grad_norm': 2.8056225776672363, 'learning_rate': 0.00019375000000000002, 'epoch': 0.31}
+  Step 60: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2202, 'grad_norm': 1.6552493572235107, 'learning_rate': 0.00019250000000000002, 'epoch': 0.38}
+  Step 70: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2134, 'grad_norm': 2.4153428077697754, 'learning_rate': 0.00019125000000000001, 'epoch': 0.44}
+  Step 80: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2096, 'grad_norm': 1.479470133781433, 'learning_rate': 0.00019, 'epoch': 0.5}
+  Step 90: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1898, 'grad_norm': 1.3032431602478027, 'learning_rate': 0.00018875, 'epoch': 0.56}
+  Step 100: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2689, 'grad_norm': 2.0889744758605957, 'learning_rate': 0.0001875, 'epoch': 0.62}
+  Step 110: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2239, 'grad_norm': 1.570011019706726, 'learning_rate': 0.00018625, 'epoch': 0.69}
+  Step 120: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2453, 'grad_norm': 1.2372453212738037, 'learning_rate': 0.00018500000000000002, 'epoch': 0.75}
+  Step 130: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1471, 'grad_norm': 1.9125547409057617, 'learning_rate': 0.00018375, 'epoch': 0.81}
+  Step 140: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2177, 'grad_norm': 1.421986699104309, 'learning_rate': 0.0001825, 'epoch': 0.88}
+  Step 150: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.2386, 'grad_norm': 0.5566472411155701, 'learning_rate': 0.00018125000000000001, 'epoch': 0.94}
+  Step 160: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1326, 'grad_norm': 1.5602072477340698, 'learning_rate': 0.00018, 'epoch': 1.0}
+GPU Memory at EPOCH 1 END: 518 MB. Final Peak for this epoch: 518 MB.
+GPU Memory at EPOCH 1 BEGIN: 518 MB
+  Step 170: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1408, 'grad_norm': 1.7642813920974731, 'learning_rate': 0.00017875, 'epoch': 1.06}
+  Step 180: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1354, 'grad_norm': 1.4224319458007812, 'learning_rate': 0.0001775, 'epoch': 1.12}
+  Step 190: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1238, 'grad_norm': 1.5318591594696045, 'learning_rate': 0.00017625, 'epoch': 1.19}
+  Step 200: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1117, 'grad_norm': 2.392944574356079, 'learning_rate': 0.000175, 'epoch': 1.25}
+  Step 210: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1133, 'grad_norm': 1.4287991523742676, 'learning_rate': 0.00017375000000000002, 'epoch': 1.31}
+  Step 220: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1268, 'grad_norm': 1.3257299661636353, 'learning_rate': 0.00017250000000000002, 'epoch': 1.38}
+  Step 230: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1292, 'grad_norm': 2.492372989654541, 'learning_rate': 0.00017125, 'epoch': 1.44}
+  Step 240: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1642, 'grad_norm': 0.8748329281806946, 'learning_rate': 0.00017, 'epoch': 1.5}
+  Step 250: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1465, 'grad_norm': 0.8443464636802673, 'learning_rate': 0.00016875, 'epoch': 1.56}
+  Step 260: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1097, 'grad_norm': 1.9003005027770996, 'learning_rate': 0.0001675, 'epoch': 1.62}
+  Step 270: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1284, 'grad_norm': 1.0725562572479248, 'learning_rate': 0.00016625000000000003, 'epoch': 1.69}
+  Step 280: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1536, 'grad_norm': 2.288855791091919, 'learning_rate': 0.000165, 'epoch': 1.75}
+  Step 290: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1118, 'grad_norm': 0.9447861909866333, 'learning_rate': 0.00016375, 'epoch': 1.81}
+  Step 300: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1323, 'grad_norm': 1.7661058902740479, 'learning_rate': 0.00016250000000000002, 'epoch': 1.88}
+  Step 310: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1251, 'grad_norm': 3.6959922313690186, 'learning_rate': 0.00016125000000000002, 'epoch': 1.94}
+  Step 320: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.1225, 'grad_norm': 0.9434602856636047, 'learning_rate': 0.00016, 'epoch': 2.0}
+GPU Memory at EPOCH 2 END: 518 MB. Final Peak for this epoch: 518 MB.
+GPU Memory at EPOCH 2 BEGIN: 518 MB
+  Step 330: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0719, 'grad_norm': 1.4210634231567383, 'learning_rate': 0.00015875, 'epoch': 2.06}
+  Step 340: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0817, 'grad_norm': 1.3463237285614014, 'learning_rate': 0.0001575, 'epoch': 2.12}
+  Step 350: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0521, 'grad_norm': 1.338553786277771, 'learning_rate': 0.00015625, 'epoch': 2.19}
+  Step 360: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0823, 'grad_norm': 0.722430408000946, 'learning_rate': 0.000155, 'epoch': 2.25}
+  Step 370: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0785, 'grad_norm': 2.096904993057251, 'learning_rate': 0.00015375000000000002, 'epoch': 2.31}
+  Step 380: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0942, 'grad_norm': 1.4550493955612183, 'learning_rate': 0.0001525, 'epoch': 2.38}
+  Step 390: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0607, 'grad_norm': 1.4451642036437988, 'learning_rate': 0.00015125, 'epoch': 2.44}
+  Step 400: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0592, 'grad_norm': 0.4912848174571991, 'learning_rate': 0.00015000000000000001, 'epoch': 2.5}
+  Step 410: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0501, 'grad_norm': 2.0304574966430664, 'learning_rate': 0.00014875, 'epoch': 2.56}
+  Step 420: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0697, 'grad_norm': 1.4960072040557861, 'learning_rate': 0.0001475, 'epoch': 2.62}
+  Step 430: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0886, 'grad_norm': 1.3277100324630737, 'learning_rate': 0.00014625, 'epoch': 2.69}
+  Step 440: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.062, 'grad_norm': 0.8910312056541443, 'learning_rate': 0.000145, 'epoch': 2.75}
+  Step 450: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0612, 'grad_norm': 2.5744283199310303, 'learning_rate': 0.00014375, 'epoch': 2.81}
+  Step 460: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0688, 'grad_norm': 1.2651596069335938, 'learning_rate': 0.00014250000000000002, 'epoch': 2.88}
+  Step 470: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.071, 'grad_norm': 0.6875935196876526, 'learning_rate': 0.00014125000000000002, 'epoch': 2.94}
+  Step 480: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0935, 'grad_norm': 0.8811435699462891, 'learning_rate': 0.00014, 'epoch': 3.0}
+GPU Memory at EPOCH 3 END: 518 MB. Final Peak for this epoch: 518 MB.
+GPU Memory at EPOCH 3 BEGIN: 518 MB
+  Step 490: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0317, 'grad_norm': 0.11631800979375839, 'learning_rate': 0.00013875, 'epoch': 3.06}
+  Step 500: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0651, 'grad_norm': 1.2510652542114258, 'learning_rate': 0.0001375, 'epoch': 3.12}
+  Step 510: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0419, 'grad_norm': 0.7778785228729248, 'learning_rate': 0.00013625, 'epoch': 3.19}
+  Step 520: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0495, 'grad_norm': 0.5439034700393677, 'learning_rate': 0.00013500000000000003, 'epoch': 3.25}
+  Step 530: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0353, 'grad_norm': 0.28321725130081177, 'learning_rate': 0.00013375, 'epoch': 3.31}
+  Step 540: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.04, 'grad_norm': 1.0770893096923828, 'learning_rate': 0.0001325, 'epoch': 3.38}
+  Step 550: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0253, 'grad_norm': 0.4778910279273987, 'learning_rate': 0.00013125000000000002, 'epoch': 3.44}
+  Step 560: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0283, 'grad_norm': 0.6419045925140381, 'learning_rate': 0.00013000000000000002, 'epoch': 3.5}
+  Step 570: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0399, 'grad_norm': 0.27007555961608887, 'learning_rate': 0.00012875, 'epoch': 3.56}
+  Step 580: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0365, 'grad_norm': 2.474520206451416, 'learning_rate': 0.0001275, 'epoch': 3.62}
+  Step 590: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0374, 'grad_norm': 1.2137069702148438, 'learning_rate': 0.00012625, 'epoch': 3.69}
+  Step 600: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0306, 'grad_norm': 0.7440235614776611, 'learning_rate': 0.000125, 'epoch': 3.75}
+  Step 610: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0207, 'grad_norm': 0.5175927877426147, 'learning_rate': 0.00012375, 'epoch': 3.81}
+  Step 620: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0286, 'grad_norm': 2.545773506164551, 'learning_rate': 0.00012250000000000002, 'epoch': 3.88}
+  Step 630: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0475, 'grad_norm': 0.06520380079746246, 'learning_rate': 0.00012124999999999999, 'epoch': 3.94}
+  Step 640: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0736, 'grad_norm': 0.24475117027759552, 'learning_rate': 0.00012, 'epoch': 4.0}
+GPU Memory at EPOCH 4 END: 518 MB. Final Peak for this epoch: 518 MB.
+GPU Memory at EPOCH 4 BEGIN: 518 MB
+  Step 650: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0392, 'grad_norm': 0.19116654992103577, 'learning_rate': 0.00011875, 'epoch': 4.06}
+  Step 660: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0141, 'grad_norm': 0.06813208758831024, 'learning_rate': 0.00011750000000000001, 'epoch': 4.12}
+  Step 670: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0092, 'grad_norm': 0.1812816858291626, 'learning_rate': 0.00011625000000000002, 'epoch': 4.19}
+  Step 680: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0134, 'grad_norm': 0.5222195386886597, 'learning_rate': 0.00011499999999999999, 'epoch': 4.25}
+  Step 690: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0202, 'grad_norm': 0.04097622632980347, 'learning_rate': 0.00011375, 'epoch': 4.31}
+  Step 700: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0155, 'grad_norm': 0.07269461452960968, 'learning_rate': 0.00011250000000000001, 'epoch': 4.38}
+  Step 710: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0504, 'grad_norm': 0.28502875566482544, 'learning_rate': 0.00011125000000000001, 'epoch': 4.44}
+  Step 720: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0188, 'grad_norm': 0.2775827646255493, 'learning_rate': 0.00011000000000000002, 'epoch': 4.5}
+  Step 730: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0159, 'grad_norm': 0.3607316017150879, 'learning_rate': 0.00010875, 'epoch': 4.56}
+  Step 740: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0251, 'grad_norm': 0.3065643012523651, 'learning_rate': 0.0001075, 'epoch': 4.62}
+  Step 750: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0176, 'grad_norm': 0.03237071633338928, 'learning_rate': 0.00010625000000000001, 'epoch': 4.69}
+  Step 760: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.024, 'grad_norm': 1.7135592699050903, 'learning_rate': 0.000105, 'epoch': 4.75}
+  Step 770: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0168, 'grad_norm': 2.140554904937744, 'learning_rate': 0.00010375000000000001, 'epoch': 4.81}
+  Step 780: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0184, 'grad_norm': 0.9850175976753235, 'learning_rate': 0.0001025, 'epoch': 4.88}
+  Step 790: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0183, 'grad_norm': 0.6865206360816956, 'learning_rate': 0.00010125, 'epoch': 4.94}
+  Step 800: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0269, 'grad_norm': 1.5756139755249023, 'learning_rate': 0.0001, 'epoch': 5.0}
+GPU Memory at EPOCH 5 END: 518 MB. Final Peak for this epoch: 518 MB.
+GPU Memory at EPOCH 5 BEGIN: 518 MB
+  Step 810: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0074, 'grad_norm': 0.13619542121887207, 'learning_rate': 9.875000000000002e-05, 'epoch': 5.06}
+  Step 820: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0176, 'grad_norm': 1.2008512020111084, 'learning_rate': 9.75e-05, 'epoch': 5.12}
+  Step 830: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0108, 'grad_norm': 0.153725266456604, 'learning_rate': 9.625000000000001e-05, 'epoch': 5.19}
+  Step 840: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0086, 'grad_norm': 0.17751777172088623, 'learning_rate': 9.5e-05, 'epoch': 5.25}
+  Step 850: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0193, 'grad_norm': 0.2622356712818146, 'learning_rate': 9.375e-05, 'epoch': 5.31}
+  Step 860: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0168, 'grad_norm': 0.3505284786224365, 'learning_rate': 9.250000000000001e-05, 'epoch': 5.38}
+  Step 870: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0092, 'grad_norm': 0.1291569173336029, 'learning_rate': 9.125e-05, 'epoch': 5.44}
+  Step 880: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0081, 'grad_norm': 0.36459413170814514, 'learning_rate': 9e-05, 'epoch': 5.5}
+  Step 890: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0045, 'grad_norm': 0.23364107310771942, 'learning_rate': 8.875e-05, 'epoch': 5.56}
+  Step 900: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0129, 'grad_norm': 0.03697336092591286, 'learning_rate': 8.75e-05, 'epoch': 5.62}
+  Step 910: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0059, 'grad_norm': 0.06421653181314468, 'learning_rate': 8.625000000000001e-05, 'epoch': 5.69}
+  Step 920: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0084, 'grad_norm': 0.14479662477970123, 'learning_rate': 8.5e-05, 'epoch': 5.75}
+  Step 930: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0065, 'grad_norm': 0.09081847965717316, 'learning_rate': 8.375e-05, 'epoch': 5.81}
+  Step 940: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.014, 'grad_norm': 0.9964439272880554, 'learning_rate': 8.25e-05, 'epoch': 5.88}
+  Step 950: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.009, 'grad_norm': 0.0960448756814003, 'learning_rate': 8.125000000000001e-05, 'epoch': 5.94}
+  Step 960: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.005, 'grad_norm': 1.3936033248901367, 'learning_rate': 8e-05, 'epoch': 6.0}
+GPU Memory at EPOCH 6 END: 518 MB. Final Peak for this epoch: 518 MB.
+GPU Memory at EPOCH 6 BEGIN: 518 MB
+  Step 970: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0025, 'grad_norm': 1.2290294170379639, 'learning_rate': 7.875e-05, 'epoch': 6.06}
+  Step 980: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0036, 'grad_norm': 0.6502507328987122, 'learning_rate': 7.75e-05, 'epoch': 6.12}
+  Step 990: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0024, 'grad_norm': 0.02409456856548786, 'learning_rate': 7.625e-05, 'epoch': 6.19}
+  Step 1000: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0022, 'grad_norm': 0.04878311976790428, 'learning_rate': 7.500000000000001e-05, 'epoch': 6.25}
+  Step 1010: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0023, 'grad_norm': 0.024975452572107315, 'learning_rate': 7.375e-05, 'epoch': 6.31}
+  Step 1020: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0025, 'grad_norm': 0.0461699478328228, 'learning_rate': 7.25e-05, 'epoch': 6.38}
+  Step 1030: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0028, 'grad_norm': 0.09352873265743256, 'learning_rate': 7.125000000000001e-05, 'epoch': 6.44}
+  Step 1040: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0034, 'grad_norm': 0.07813433557748795, 'learning_rate': 7e-05, 'epoch': 6.5}
+  Step 1050: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0025, 'grad_norm': 0.06926066428422928, 'learning_rate': 6.875e-05, 'epoch': 6.56}
+  Step 1060: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.011, 'grad_norm': 0.0389791838824749, 'learning_rate': 6.750000000000001e-05, 'epoch': 6.62}
+  Step 1070: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0011, 'grad_norm': 0.02087448164820671, 'learning_rate': 6.625e-05, 'epoch': 6.69}
+  Step 1080: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0034, 'grad_norm': 0.033381108194589615, 'learning_rate': 6.500000000000001e-05, 'epoch': 6.75}
+  Step 1090: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0011, 'grad_norm': 0.021722033619880676, 'learning_rate': 6.375e-05, 'epoch': 6.81}
+  Step 1100: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0012, 'grad_norm': 0.1879298985004425, 'learning_rate': 6.25e-05, 'epoch': 6.88}
+  Step 1110: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0013, 'grad_norm': 0.019752802327275276, 'learning_rate': 6.125000000000001e-05, 'epoch': 6.94}
+  Step 1120: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0034, 'grad_norm': 0.030040912330150604, 'learning_rate': 6e-05, 'epoch': 7.0}
+GPU Memory at EPOCH 7 END: 518 MB. Final Peak for this epoch: 518 MB.
+GPU Memory at EPOCH 7 BEGIN: 518 MB
+  Step 1130: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0012, 'grad_norm': 0.04120491072535515, 'learning_rate': 5.8750000000000005e-05, 'epoch': 7.06}
+  Step 1140: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0012, 'grad_norm': 0.02123376540839672, 'learning_rate': 5.7499999999999995e-05, 'epoch': 7.12}
+  Step 1150: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0017, 'grad_norm': 0.02033079043030739, 'learning_rate': 5.6250000000000005e-05, 'epoch': 7.19}
+  Step 1160: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0013, 'grad_norm': 0.030976224690675735, 'learning_rate': 5.500000000000001e-05, 'epoch': 7.25}
+  Step 1170: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.025199661031365395, 'learning_rate': 5.375e-05, 'epoch': 7.31}
+  Step 1180: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0017, 'grad_norm': 0.06258273869752884, 'learning_rate': 5.25e-05, 'epoch': 7.38}
+  Step 1190: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.001, 'grad_norm': 0.016569383442401886, 'learning_rate': 5.125e-05, 'epoch': 7.44}
+  Step 1200: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0017, 'grad_norm': 0.05247385427355766, 'learning_rate': 5e-05, 'epoch': 7.5}
+  Step 1210: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.023308182135224342, 'learning_rate': 4.875e-05, 'epoch': 7.56}
+  Step 1220: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0091, 'grad_norm': 0.0695180743932724, 'learning_rate': 4.75e-05, 'epoch': 7.62}
+  Step 1230: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0018, 'grad_norm': 0.027429163455963135, 'learning_rate': 4.6250000000000006e-05, 'epoch': 7.69}
+  Step 1240: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0008, 'grad_norm': 0.06505338847637177, 'learning_rate': 4.5e-05, 'epoch': 7.75}
+  Step 1250: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0012, 'grad_norm': 0.12228421121835709, 'learning_rate': 4.375e-05, 'epoch': 7.81}
+  Step 1260: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0009, 'grad_norm': 0.01527632400393486, 'learning_rate': 4.25e-05, 'epoch': 7.88}
+  Step 1270: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0011, 'grad_norm': 0.010166932828724384, 'learning_rate': 4.125e-05, 'epoch': 7.94}
+  Step 1280: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.011554595082998276, 'learning_rate': 4e-05, 'epoch': 8.0}
+GPU Memory at EPOCH 8 END: 518 MB. Final Peak for this epoch: 518 MB.
+GPU Memory at EPOCH 8 BEGIN: 518 MB
+  Step 1290: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0013, 'grad_norm': 0.0231852438300848, 'learning_rate': 3.875e-05, 'epoch': 8.06}
+  Step 1300: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0008, 'grad_norm': 0.014583284966647625, 'learning_rate': 3.7500000000000003e-05, 'epoch': 8.12}
+  Step 1310: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0006, 'grad_norm': 0.009553935378789902, 'learning_rate': 3.625e-05, 'epoch': 8.19}
+  Step 1320: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0006, 'grad_norm': 0.004044536966830492, 'learning_rate': 3.5e-05, 'epoch': 8.25}
+  Step 1330: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0005, 'grad_norm': 0.02625144086778164, 'learning_rate': 3.375000000000001e-05, 'epoch': 8.31}
+  Step 1340: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0006, 'grad_norm': 0.02759745717048645, 'learning_rate': 3.2500000000000004e-05, 'epoch': 8.38}
+  Step 1350: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0004, 'grad_norm': 0.016735592857003212, 'learning_rate': 3.125e-05, 'epoch': 8.44}
+  Step 1360: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0004, 'grad_norm': 0.014757052063941956, 'learning_rate': 3e-05, 'epoch': 8.5}
+  Step 1370: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.013305208645761013, 'learning_rate': 2.8749999999999997e-05, 'epoch': 8.56}
+  Step 1380: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0004, 'grad_norm': 0.011115556582808495, 'learning_rate': 2.7500000000000004e-05, 'epoch': 8.62}
+  Step 1390: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.001, 'grad_norm': 0.10411592572927475, 'learning_rate': 2.625e-05, 'epoch': 8.69}
+  Step 1400: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.001, 'grad_norm': 0.016770144924521446, 'learning_rate': 2.5e-05, 'epoch': 8.75}
+  Step 1410: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.21418263018131256, 'learning_rate': 2.375e-05, 'epoch': 8.81}
+  Step 1420: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0006, 'grad_norm': 0.04577793926000595, 'learning_rate': 2.25e-05, 'epoch': 8.88}
+  Step 1430: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0005, 'grad_norm': 0.010789094492793083, 'learning_rate': 2.125e-05, 'epoch': 8.94}
+  Step 1440: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0009, 'grad_norm': 0.012264127843081951, 'learning_rate': 2e-05, 'epoch': 9.0}
+GPU Memory at EPOCH 9 END: 518 MB. Final Peak for this epoch: 518 MB.
+GPU Memory at EPOCH 9 BEGIN: 518 MB
+  Step 1450: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.014016598463058472, 'learning_rate': 1.8750000000000002e-05, 'epoch': 9.06}
+  Step 1460: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.0316653735935688, 'learning_rate': 1.75e-05, 'epoch': 9.12}
+  Step 1470: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0003, 'grad_norm': 0.016870800405740738, 'learning_rate': 1.6250000000000002e-05, 'epoch': 9.19}
+  Step 1480: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.034907273948192596, 'learning_rate': 1.5e-05, 'epoch': 9.25}
+  Step 1490: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0006, 'grad_norm': 0.028657278046011925, 'learning_rate': 1.3750000000000002e-05, 'epoch': 9.31}
+  Step 1500: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0006, 'grad_norm': 0.005260863807052374, 'learning_rate': 1.25e-05, 'epoch': 9.38}
+  Step 1510: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0006, 'grad_norm': 0.007498017977923155, 'learning_rate': 1.125e-05, 'epoch': 9.44}
+  Step 1520: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0005, 'grad_norm': 0.032225172966718674, 'learning_rate': 1e-05, 'epoch': 9.5}
+  Step 1530: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.03466775640845299, 'learning_rate': 8.75e-06, 'epoch': 9.56}
+  Step 1540: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0004, 'grad_norm': 0.011665550991892815, 'learning_rate': 7.5e-06, 'epoch': 9.62}
+  Step 1550: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0004, 'grad_norm': 0.06905633211135864, 'learning_rate': 6.25e-06, 'epoch': 9.69}
+  Step 1560: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0005, 'grad_norm': 0.05592271313071251, 'learning_rate': 5e-06, 'epoch': 9.75}
+  Step 1570: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0006, 'grad_norm': 0.014088249765336514, 'learning_rate': 3.75e-06, 'epoch': 9.81}
+  Step 1580: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0005, 'grad_norm': 0.005035290028899908, 'learning_rate': 2.5e-06, 'epoch': 9.88}
+  Step 1590: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0007, 'grad_norm': 0.014711769297719002, 'learning_rate': 1.25e-06, 'epoch': 9.94}
+  Step 1600: GPU Mem: 518 MB (Epoch Peak: 518 MB, Overall Peak: 518 MB)
+{'loss': 0.0006, 'grad_norm': 0.008593101054430008, 'learning_rate': 0.0, 'epoch': 10.0}
+GPU Memory at EPOCH 10 END: 518 MB. Final Peak for this epoch: 518 MB.
+{'train_runtime': 816.5071, 'train_samples_per_second': 7.838, 'train_steps_per_second': 1.96, 'train_loss': 0.058155995137203716, 'epoch': 10.0}
+GPU Memory at TRAIN END: 518 MB
+OVERALL PEAK GPU Memory during training: 518 MB

@@ -1,0 +1,390 @@
+{
+    "os": "Linux-5.15.0-176-generic-x86_64-with-glibc2.35",
+    "python": "3.9.12",
+    "heartbeatAt": "2026-06-16T04:13:35.001699",
+    "startedAt": "2026-06-16T04:13:34.157086",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--style",
+        "pirate",
+        "--dataset_name",
+        "truthfulqa",
+        "--obfuscation_method",
+        "soft",
+        "--output_dir",
+        "results/soft_pirate_obfuscation",
+        "--track_energy"
+    ],
+    "state": "running",
+    "program": "/home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/obfuscate.py",
+    "codePathLocal": "obfuscate.py",
+    "codePath": "prompt_obfuscation/prompt_obfuscation/obfuscate.py",
+    "git": {
+        "remote": "https://github.com/stefanosimonetto/prompt_stealing_def.git",
+        "commit": "afe16715cbb181c9e44b3b982d7283ae0265963d"
+    },
+    "email": "stefanosimonetto98@gmail.com",
+    "root": "/home/simonettos/prompt_stealing/prompt_stealing_def",
+    "host": "ctit091",
+    "username": "simonettos",
+    "executable": "/deepstore/software/anaconda3/2022.05/bin/python3",
+    "cpu_count": 32,
+    "cpu_count_logical": 64,
+    "cpu_freq": {
+        "current": 2083.4057031250004,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 931.596,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.57,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 91.11027145385742,
+            "used": 59.588897705078125
+        }
+    },
+    "gpu": "NVIDIA A40",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        },
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        },
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        },
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        }
+    ],
+    "memory": {
+        "total": 251.50979614257812
+    }
+}

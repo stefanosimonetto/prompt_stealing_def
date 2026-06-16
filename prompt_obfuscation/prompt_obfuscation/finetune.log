@@ -1,5 +1,5 @@
-2026-05-26 09:38:13,550 — src.logging_config — INFO — Logging configured. Log file: finetune.log, Level: INFO
-2026-05-26 09:38:13,568 — __main__ — INFO — Command line arguments received: {
+2026-06-16 06:13:14,254 — src.logging_config — INFO — Logging configured. Log file: finetune.log, Level: INFO
+2026-06-16 06:13:14,256 — __main__ — INFO — Command line arguments received: {
   "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
   "quantize_4bit": true,
   "quantize_8bit": false,
@@ -15,17 +15,23 @@
   "lora_r": 8,
   "lora_alpha": 16,
   "seed": 42,
-  "output_dir": "results/pirate_finetuning"
+  "output_dir": "results/pirate_finetuning",
+  "wandb_project": "prompt-vector-energy",
+  "wandb_run_name": null,
+  "wandb_entity": null,
+  "disable_wandb": false,
+  "track_energy": true
 }
-2026-05-26 09:38:13,675 — __main__ — INFO — Loading tokenizer and model...
-2026-05-26 09:40:10,839 — src.model — INFO — Model and tokenizer loaded successfully.
-2026-05-26 09:40:11,140 — __main__ — INFO — Loading dataset...
-2026-05-26 09:40:15,479 — data.loader — INFO — Dataset split into training (640 samples) and testing (160 samples).
-2026-05-26 09:40:15,498 — __main__ — INFO — Constructing system prompt for finetuning...
-2026-05-26 09:40:15,500 — __main__ — INFO — Precomputing model outputs (probs and IDs) using conventional system prompt...
-2026-05-26 09:44:12,053 — src.output_generation — INFO — Max GPU memory occupied during precomputation: 37870 MB
-2026-05-26 09:44:14,419 — __main__ — INFO — bfloat16 is supported. Using bf16 for training.
-2026-05-26 09:44:14,691 — __main__ — INFO — Starting fine-tuning...
-2026-05-26 09:56:16,786 — __main__ — INFO — Done.
-2026-05-26 09:56:16,790 — __main__ — INFO — Results saved to /home/simonettos/prompt_stealing/prompt_obfuscation/prompt_obfuscation/results/pirate_finetuning
-2026-05-26 09:56:17,045 — __main__ — INFO — Done.
+2026-06-16 06:13:51,154 — src.tracking — WARNING — codecarbon is not installed; continuing without energy logging.
+2026-06-16 06:13:51,256 — __main__ — INFO — Loading tokenizer and model...
+2026-06-16 06:15:07,073 — src.model — INFO — Model and tokenizer loaded successfully.
+2026-06-16 06:15:07,148 — __main__ — INFO — Loading dataset...
+2026-06-16 06:15:12,712 — data.loader — INFO — Dataset split into training (640 samples) and testing (160 samples).
+2026-06-16 06:15:12,714 — __main__ — INFO — Constructing system prompt for finetuning...
+2026-06-16 06:15:12,715 — __main__ — INFO — Precomputing model outputs (probs and IDs) using conventional system prompt...
+2026-06-16 06:19:38,261 — src.output_generation — INFO — Max GPU memory occupied during precomputation: 518 MB
+2026-06-16 06:19:40,139 — __main__ — INFO — bfloat16 is supported. Using bf16 for training.
+2026-06-16 06:19:40,220 — __main__ — INFO — Starting fine-tuning...
+2026-06-16 06:33:17,228 — __main__ — INFO — Done.
+2026-06-16 06:33:17,257 — __main__ — INFO — Results saved to /home/simonettos/prompt_stealing/prompt_stealing_def/prompt_obfuscation/prompt_obfuscation/results/pirate_finetuning
+2026-06-16 06:33:27,459 — __main__ — INFO — Done.

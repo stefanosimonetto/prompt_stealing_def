@@ -1,0 +1,115 @@
+wandb_version: 1
+
+model_name:
+  desc: null
+  value: meta-llama/Meta-Llama-3.1-8B-Instruct
+quantize_4bit:
+  desc: null
+  value: true
+quantize_8bit:
+  desc: null
+  value: false
+system_prompt:
+  desc: null
+  value: null
+style:
+  desc: null
+  value: pirate
+strategy:
+  desc: null
+  value: prompt_obfuscation_soft
+obfuscation_method:
+  desc: null
+  value: soft
+batch_size:
+  desc: null
+  value: 4
+dataset_size:
+  desc: null
+  value: 800
+dataset_name:
+  desc: null
+  value: truthfulqa
+task_hints:
+  desc: null
+  value: false
+obf_sys_prompt_len:
+  desc: null
+  value: 10
+output_token_count:
+  desc: null
+  value: 15
+window_size:
+  desc: null
+  value: 5
+lr:
+  desc: null
+  value: 0.01
+optimizer_iter:
+  desc: null
+  value: 10
+topk:
+  desc: null
+  value: 3
+search_width:
+  desc: null
+  value: 10
+n_replace:
+  desc: null
+  value: 1
+ce_weight:
+  desc: null
+  value: 1.0
+kl_weight:
+  desc: null
+  value: 1.0
+seed:
+  desc: null
+  value: 42
+track_energy:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.12
+    cli_version: 0.17.3
+    framework: huggingface
+    huggingface_version: 4.46.3
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1781583214
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      2:
+      - 1
+      - 3
+      - 5
+      - 11
+      - 41
+      - 49
+      - 51
+      - 53
+      - 55
+      - 71
+      3:
+      - 2
+      - 13
+      - 15
+      - 16
+      - 23
+      - 62
+      4: 3.9.12
+      5: 0.17.3
+      6: 4.46.3
+      8:
+      - 5
+      13: linux-x86_64

@@ -14,6 +14,5 @@
     "lora_r": 8,
     "lora_alpha": 16,
     "optimizer_iter": 10,
-    "seed": 42,
-    "best_candidate_idx": 3
+    "seed": 42
 }
