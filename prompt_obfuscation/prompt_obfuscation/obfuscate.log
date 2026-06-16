@@ -1,0 +1,131 @@
+2026-05-25 07:20:54,300 — src.logging_config — INFO — Logging configured. Log file: obfuscate.log, Level: INFO
+2026-05-25 07:20:54,305 — __main__ — INFO — Command line arguments received: {
+  "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "quantize_4bit": true,
+  "quantize_8bit": false,
+  "system_prompt": null,
+  "style": "pirate",
+  "obfuscation_method": "soft",
+  "batch_size": 4,
+  "dataset_size": 800,
+  "dataset_name": "truthfulqa",
+  "task_hints": false,
+  "obf_sys_prompt_len": 10,
+  "output_token_count": 15,
+  "window_size": 5,
+  "optimizer_iter": 10,
+  "lr": 0.01,
+  "topk": 3,
+  "search_width": 10,
+  "n_replace": 1,
+  "ce_weight": 1.0,
+  "kl_weight": 1.0,
+  "seed": 42,
+  "output_dir": "results/soft_pirate_obfuscation"
+}
+2026-05-25 07:20:54,358 — __main__ — INFO — Loading tokenizer and model...
+2026-05-25 07:21:42,010 — src.model — INFO — Model and tokenizer loaded successfully.
+2026-05-25 07:21:42,079 — __main__ — INFO — Loading dataset...
+2026-05-25 07:21:45,535 — data.loader — INFO — Dataset split into training (640 samples) and testing (160 samples).
+2026-05-25 07:21:45,535 — __main__ — INFO — Constructing system prompt for obfuscation...
+2026-05-25 07:21:45,538 — __main__ — INFO — Constructed system prompt for obfuscation: '<|pad|>You are a question-answering AI assistant. You will receive the question and you have to reply directly with the answer. Reply with a pirate accent.<|pad|>'
+2026-05-25 07:21:45,538 — __main__ — INFO — Initializing obfuscated system prompt with length: 10 tokens.
+2026-05-25 07:21:45,539 — __main__ — INFO — Precomputing model outputs (probs and IDs) using conventional system prompt...
+2026-05-25 07:27:01,755 — src.output_generation — INFO — Max GPU memory occupied during precomputation: 9848 MB
+2026-05-25 07:27:02,671 — __main__ — INFO — Applying soft prompt obfuscation...
+2026-05-25 07:27:02,886 — __main__ — INFO — Token Window 1, Iteration: 1/10
+2026-05-25 07:33:03,953 — __main__ — INFO — Token Window 1, Iteration 1 Avg Loss: 0.4846
+2026-05-25 07:33:03,954 — __main__ — INFO — Max GPU Utilization: 22994 MB
+2026-05-25 07:33:03,955 — __main__ — INFO — Token Window 1, Iteration: 2/10
+2026-05-25 07:39:04,441 — __main__ — INFO — Token Window 1, Iteration 2 Avg Loss: 0.3085
+2026-05-25 07:39:04,443 — __main__ — INFO — Max GPU Utilization: 22994 MB
+2026-05-25 07:39:04,443 — __main__ — INFO — Token Window 1, Iteration: 3/10
+2026-05-25 07:45:05,011 — __main__ — INFO — Token Window 1, Iteration 3 Avg Loss: 0.2940
+2026-05-25 07:45:05,013 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 07:45:05,013 — __main__ — INFO — Token Window 1, Iteration: 4/10
+2026-05-25 07:51:05,530 — __main__ — INFO — Token Window 1, Iteration 4 Avg Loss: 0.2867
+2026-05-25 07:51:05,532 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 07:51:05,532 — __main__ — INFO — Token Window 1, Iteration: 5/10
+2026-05-25 07:57:06,115 — __main__ — INFO — Token Window 1, Iteration 5 Avg Loss: 0.2819
+2026-05-25 07:57:06,118 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 07:57:06,119 — __main__ — INFO — Token Window 1, Iteration: 6/10
+2026-05-25 08:03:07,062 — __main__ — INFO — Token Window 1, Iteration 6 Avg Loss: 0.2777
+2026-05-25 08:03:07,064 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:03:07,064 — __main__ — INFO — Token Window 1, Iteration: 7/10
+2026-05-25 08:09:07,880 — __main__ — INFO — Token Window 1, Iteration 7 Avg Loss: 0.2737
+2026-05-25 08:09:07,882 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:09:07,882 — __main__ — INFO — Token Window 1, Iteration: 8/10
+2026-05-25 08:15:08,310 — __main__ — INFO — Token Window 1, Iteration 8 Avg Loss: 0.2707
+2026-05-25 08:15:08,311 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:15:08,311 — __main__ — INFO — Token Window 1, Iteration: 9/10
+2026-05-25 08:21:08,980 — __main__ — INFO — Token Window 1, Iteration 9 Avg Loss: 0.2676
+2026-05-25 08:21:08,982 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:21:08,982 — __main__ — INFO — Token Window 1, Iteration: 10/10
+2026-05-25 08:27:09,617 — __main__ — INFO — Token Window 1, Iteration 10 Avg Loss: 0.2653
+2026-05-25 08:27:09,618 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:27:09,619 — __main__ — INFO — Finished token window 1. Cumulative true tokens appended: 5. Total cumulative: 5
+2026-05-25 08:27:09,828 — __main__ — INFO — Token Window 2, Iteration: 1/10
+2026-05-25 08:33:28,686 — __main__ — INFO — Token Window 2, Iteration 1 Avg Loss: 0.2534
+2026-05-25 08:33:28,688 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:33:28,688 — __main__ — INFO — Token Window 2, Iteration: 2/10
+2026-05-25 08:39:47,945 — __main__ — INFO — Token Window 2, Iteration 2 Avg Loss: 0.2158
+2026-05-25 08:39:47,946 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:39:47,946 — __main__ — INFO — Token Window 2, Iteration: 3/10
+2026-05-25 08:46:07,043 — __main__ — INFO — Token Window 2, Iteration 3 Avg Loss: 0.2028
+2026-05-25 08:46:07,045 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:46:07,045 — __main__ — INFO — Token Window 2, Iteration: 4/10
+2026-05-25 08:52:26,091 — __main__ — INFO — Token Window 2, Iteration 4 Avg Loss: 0.1951
+2026-05-25 08:52:26,092 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:52:26,092 — __main__ — INFO — Token Window 2, Iteration: 5/10
+2026-05-25 08:58:45,549 — __main__ — INFO — Token Window 2, Iteration 5 Avg Loss: 0.1905
+2026-05-25 08:58:45,550 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 08:58:45,550 — __main__ — INFO — Token Window 2, Iteration: 6/10
+2026-05-25 09:05:04,983 — __main__ — INFO — Token Window 2, Iteration 6 Avg Loss: 0.1857
+2026-05-25 09:05:04,985 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 09:05:04,985 — __main__ — INFO — Token Window 2, Iteration: 7/10
+2026-05-25 09:11:24,624 — __main__ — INFO — Token Window 2, Iteration 7 Avg Loss: 0.1824
+2026-05-25 09:11:24,625 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 09:11:24,625 — __main__ — INFO — Token Window 2, Iteration: 8/10
+2026-05-25 09:17:43,726 — __main__ — INFO — Token Window 2, Iteration 8 Avg Loss: 0.1797
+2026-05-25 09:17:43,728 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 09:17:43,728 — __main__ — INFO — Token Window 2, Iteration: 9/10
+2026-05-25 09:24:02,810 — __main__ — INFO — Token Window 2, Iteration 9 Avg Loss: 0.1769
+2026-05-25 09:24:02,811 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 09:24:02,812 — __main__ — INFO — Token Window 2, Iteration: 10/10
+2026-05-25 09:30:22,274 — __main__ — INFO — Token Window 2, Iteration 10 Avg Loss: 0.1749
+2026-05-25 09:30:22,276 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 09:30:22,276 — __main__ — INFO — Finished token window 2. Cumulative true tokens appended: 5. Total cumulative: 10
+2026-05-25 09:30:22,488 — __main__ — INFO — Token Window 3, Iteration: 1/10
+2026-05-25 09:36:52,209 — __main__ — INFO — Token Window 3, Iteration 1 Avg Loss: 0.2293
+2026-05-25 09:36:52,211 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 09:36:52,211 — __main__ — INFO — Token Window 3, Iteration: 2/10
+2026-05-25 09:43:20,152 — __main__ — INFO — Token Window 3, Iteration 2 Avg Loss: 0.2031
+2026-05-25 09:43:20,153 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 09:43:20,153 — __main__ — INFO — Token Window 3, Iteration: 3/10
+2026-05-25 09:49:48,082 — __main__ — INFO — Token Window 3, Iteration 3 Avg Loss: 0.1937
+2026-05-25 09:49:48,083 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 09:49:48,084 — __main__ — INFO — Token Window 3, Iteration: 4/10
+2026-05-25 09:56:15,884 — __main__ — INFO — Token Window 3, Iteration 4 Avg Loss: 0.1880
+2026-05-25 09:56:15,886 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 09:56:15,886 — __main__ — INFO — Token Window 3, Iteration: 5/10
+2026-05-25 10:02:46,214 — __main__ — INFO — Token Window 3, Iteration 5 Avg Loss: 0.1830
+2026-05-25 10:02:46,215 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 10:02:46,216 — __main__ — INFO — Token Window 3, Iteration: 6/10
+2026-05-25 10:09:14,439 — __main__ — INFO — Token Window 3, Iteration 6 Avg Loss: 0.1793
+2026-05-25 10:09:14,441 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 10:09:14,441 — __main__ — INFO — Token Window 3, Iteration: 7/10
+2026-05-25 10:15:42,098 — __main__ — INFO — Token Window 3, Iteration 7 Avg Loss: 0.1768
+2026-05-25 10:15:42,099 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 10:15:42,100 — __main__ — INFO — Token Window 3, Iteration: 8/10
+2026-05-25 10:22:09,817 — __main__ — INFO — Token Window 3, Iteration 8 Avg Loss: 0.1738
+2026-05-25 10:22:09,818 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 10:22:09,819 — __main__ — INFO — Token Window 3, Iteration: 9/10
+2026-05-25 10:28:37,358 — __main__ — INFO — Token Window 3, Iteration 9 Avg Loss: 0.1722
+2026-05-25 10:28:37,359 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 10:28:37,360 — __main__ — INFO — Token Window 3, Iteration: 10/10
+2026-05-25 10:35:04,636 — __main__ — INFO — Token Window 3, Iteration 10 Avg Loss: 0.1702
+2026-05-25 10:35:04,638 — __main__ — INFO — Max GPU Utilization: 23998 MB
+2026-05-25 10:35:04,638 — __main__ — INFO — Finished token window 3. Cumulative true tokens appended: 5. Total cumulative: 15
+2026-05-25 10:35:04,638 — __main__ — INFO — Soft prompt obfuscation finished.
+2026-05-25 10:35:04,739 — __main__ — INFO — Results saved to /home/simonettos/prompt_stealing/prompt_obfuscation/prompt_obfuscation/results/soft_pirate_obfuscation
+2026-05-25 10:35:04,975 — __main__ — INFO — Done.

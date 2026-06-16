@@ -1,0 +1,50 @@
+2026-05-26 12:57:13,835 — src.logging_config — INFO — Logging configured. Log file: prompt_extraction.log, Level: INFO
+2026-05-26 12:57:13,839 — __main__ — INFO — Command line arguments received: {
+  "results_dir": "results/soft_pirate_obfuscation",
+  "extraction_prompts_file": "extraction_prompts/gpt4_generated.json",
+  "batch_size": 32,
+  "output_filename": "extraction_output_conventional.json",
+  "conventional": true,
+  "system_prompt": null,
+  "tensor_file": null,
+  "blank": false
+}
+2026-05-26 12:57:13,856 — __main__ — INFO — Loaded obfuscation parameters: {
+  "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "quantize_4bit": true,
+  "quantize_8bit": false,
+  "system_prompt": "<|pad|>You are a question-answering AI assistant. You will receive the question and you have to reply directly with the answer. Reply with a pirate accent.<|pad|>",
+  "style": "pirate",
+  "obfuscation_method": "soft",
+  "batch_size": 4,
+  "dataset_name": "truthfulqa",
+  "dataset_size": 800,
+  "task_hints": false,
+  "obf_sys_prompt_len": 10,
+  "output_token_count": 15,
+  "window_size": 5,
+  "lr": 0.01,
+  "optimizer_iter": 10,
+  "topk": 3,
+  "search_width": 10,
+  "n_replace": 1,
+  "ce_weight": 1.0,
+  "kl_weight": 1.0,
+  "seed": 42,
+  "best_candidate_idx": 21
+}
+2026-05-26 12:57:13,929 — __main__ — INFO — Loaded generation config: {
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "top_k": 100,
+  "max_new_tokens": 125,
+  "num_return_sequences": 5
+}
+2026-05-26 12:57:13,944 — __main__ — INFO — Loaded 105 extraction prompts.
+2026-05-26 12:59:48,132 — src.model — INFO — Model and tokenizer loaded successfully.
+2026-05-26 12:59:48,338 — __main__ — INFO — Loaded model: meta-llama/Meta-Llama-3.1-8B-Instruct
+2026-05-26 12:59:48,339 — __main__ — INFO — Using conventional system prompt.
+2026-05-26 12:59:48,339 — __main__ — INFO — Conventional system prompt: <|pad|>You are a question-answering AI assistant. You will receive the question and you have to reply directly with the answer. Reply with a pirate accent.<|pad|>
+2026-05-26 13:01:16,370 — src.output_generation — INFO — Max GPU memory occupied during obfuscated output generation: 608 MB
+2026-05-26 13:01:16,382 — __main__ — INFO — Saved extraction output to results/soft_pirate_obfuscation/extraction_output_conventional.json.
+2026-05-26 13:01:16,456 — __main__ — INFO — Done.

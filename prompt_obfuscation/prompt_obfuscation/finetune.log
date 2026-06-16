@@ -1,0 +1,31 @@
+2026-05-26 09:38:13,550 — src.logging_config — INFO — Logging configured. Log file: finetune.log, Level: INFO
+2026-05-26 09:38:13,568 — __main__ — INFO — Command line arguments received: {
+  "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "quantize_4bit": true,
+  "quantize_8bit": false,
+  "system_prompt": null,
+  "style": "pirate",
+  "dataset_size": 800,
+  "dataset_name": "truthfulqa",
+  "task_hints": false,
+  "batch_size": 4,
+  "output_token_count": 15,
+  "optimizer_iter": 10,
+  "lr": 0.0002,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "seed": 42,
+  "output_dir": "results/pirate_finetuning"
+}
+2026-05-26 09:38:13,675 — __main__ — INFO — Loading tokenizer and model...
+2026-05-26 09:40:10,839 — src.model — INFO — Model and tokenizer loaded successfully.
+2026-05-26 09:40:11,140 — __main__ — INFO — Loading dataset...
+2026-05-26 09:40:15,479 — data.loader — INFO — Dataset split into training (640 samples) and testing (160 samples).
+2026-05-26 09:40:15,498 — __main__ — INFO — Constructing system prompt for finetuning...
+2026-05-26 09:40:15,500 — __main__ — INFO — Precomputing model outputs (probs and IDs) using conventional system prompt...
+2026-05-26 09:44:12,053 — src.output_generation — INFO — Max GPU memory occupied during precomputation: 37870 MB
+2026-05-26 09:44:14,419 — __main__ — INFO — bfloat16 is supported. Using bf16 for training.
+2026-05-26 09:44:14,691 — __main__ — INFO — Starting fine-tuning...
+2026-05-26 09:56:16,786 — __main__ — INFO — Done.
+2026-05-26 09:56:16,790 — __main__ — INFO — Results saved to /home/simonettos/prompt_stealing/prompt_obfuscation/prompt_obfuscation/results/pirate_finetuning
+2026-05-26 09:56:17,045 — __main__ — INFO — Done.

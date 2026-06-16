@@ -1,0 +1,90 @@
+2026-05-26 10:04:48,150 — src.logging_config — INFO — Logging configured. Log file: evaluate_finetuning.log, Level: INFO
+2026-05-26 10:04:48,151 — __main__ — INFO — Command line arguments received: {
+  "results_dir": "results/pirate_finetuning",
+  "metrics": [
+    "sacrebleu",
+    "rouge1",
+    "rouge2",
+    "rougeL",
+    "rougeLsum",
+    "meteor",
+    "bertscore",
+    "cer",
+    "nist_mt",
+    "chrf",
+    "cosine_similarity"
+  ],
+  "eval_batch_size": 16,
+  "max_new_tokens": 125,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "top_k": 100,
+  "num_return_sequences": 5
+}
+2026-05-26 10:04:48,151 — __main__ — INFO — Starting evaluation for results in: results/pirate_finetuning
+2026-05-26 10:04:48,153 — __main__ — INFO — Loaded finetuning parameters: {
+  "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "quantize_4bit": true,
+  "quantize_8bit": false,
+  "system_prompt": "<|pad|>You are a question-answering AI assistant. You will receive the question and you have to reply directly with the answer. Reply with a pirate accent.<|pad|>",
+  "style": "pirate",
+  "obfuscation_method": "finetuning",
+  "batch_size": 4,
+  "dataset_size": 800,
+  "dataset_name": "truthfulqa",
+  "task_hints": false,
+  "output_token_count": 15,
+  "learning_rate": 0.0002,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "optimizer_iter": 10,
+  "seed": 42
+}
+2026-05-26 10:06:37,823 — __main__ — INFO — Loaded model: meta-llama/Meta-Llama-3.1-8B-Instruct
+2026-05-26 10:06:37,824 — __main__ — INFO — Loaded test data with 160 prompts.
+2026-05-26 10:06:37,824 — __main__ — INFO — Generating reference outputs on test data using the conventional system prompt...
+2026-05-26 10:09:32,489 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:09:32,812 — __main__ — INFO — Processing adapter: epoch_1
+2026-05-26 10:14:40,164 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:16:21,593 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 10:16:21,593 — __main__ — INFO — Similarity scores: {'cer': 0.6262352303455306, 'meteor': 0.5045794021142632, 'chrf': 53.114547451181515, 'sacrebleu': 47.57395664246034, 'nist_mt': 3.9713704187274863, 'bertscore': 0.909485936164856, 'cosine_similarity': 0.8403379909694195, 'rouge1': 0.5722363148793957, 'rouge2': 0.3425628468561269, 'rougeL': 0.44563494279735705, 'rougeLsum': 0.4871311432399411}
+2026-05-26 10:16:21,594 — __main__ — INFO — Processing adapter: epoch_10
+2026-05-26 10:19:59,476 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:21:06,294 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 10:21:06,294 — __main__ — INFO — Similarity scores: {'cer': 0.6329885859274098, 'meteor': 0.49157154661646835, 'chrf': 51.89623824190564, 'sacrebleu': 45.1955780215379, 'nist_mt': 3.8812557294329686, 'bertscore': 0.9075426459312439, 'cosine_similarity': 0.841915636882186, 'rouge1': 0.559421543120658, 'rouge2': 0.3277237267179278, 'rougeL': 0.43322002054829845, 'rougeLsum': 0.4754455625004941}
+2026-05-26 10:21:06,295 — __main__ — INFO — Processing adapter: epoch_2
+2026-05-26 10:25:39,475 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:26:30,406 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 10:26:30,406 — __main__ — INFO — Similarity scores: {'cer': 0.6217181996675453, 'meteor': 0.5009477904834208, 'chrf': 52.70239863224209, 'sacrebleu': 45.33747220822751, 'nist_mt': 3.8815567555868626, 'bertscore': 0.9080221056938171, 'cosine_similarity': 0.843373841047287, 'rouge1': 0.5644801939572297, 'rouge2': 0.3357408127369147, 'rougeL': 0.43765319265839936, 'rougeLsum': 0.4798816475401585}
+2026-05-26 10:26:30,407 — __main__ — INFO — Processing adapter: epoch_3
+2026-05-26 10:30:11,878 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:31:14,347 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 10:31:14,347 — __main__ — INFO — Similarity scores: {'cer': 0.6282421100480029, 'meteor': 0.5038762109715672, 'chrf': 52.703560673445935, 'sacrebleu': 49.18710465339442, 'nist_mt': 3.9336894758618683, 'bertscore': 0.9111753106117249, 'cosine_similarity': 0.8429934449493885, 'rouge1': 0.5758410626677031, 'rouge2': 0.34918880915737316, 'rougeL': 0.4539522669263194, 'rougeLsum': 0.4928964392319366}
+2026-05-26 10:31:14,348 — __main__ — INFO — Processing adapter: epoch_4
+2026-05-26 10:35:19,556 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:36:22,964 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 10:36:22,965 — __main__ — INFO — Similarity scores: {'cer': 0.6336454434550811, 'meteor': 0.4957816080716623, 'chrf': 52.256959843762615, 'sacrebleu': 45.53176592168597, 'nist_mt': 3.8516559475928034, 'bertscore': 0.9072750806808472, 'cosine_similarity': 0.840406751818955, 'rouge1': 0.5608652991051883, 'rouge2': 0.3291997750671496, 'rougeL': 0.4320260013391616, 'rougeLsum': 0.47319536121976574}
+2026-05-26 10:36:22,966 — __main__ — INFO — Processing adapter: epoch_5
+2026-05-26 10:41:41,255 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:42:32,395 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 10:42:32,395 — __main__ — INFO — Similarity scores: {'cer': 0.6274848575191632, 'meteor': 0.4996202055492973, 'chrf': 52.71030579611442, 'sacrebleu': 46.99672400804784, 'nist_mt': 3.9345868212747965, 'bertscore': 0.9094133973121643, 'cosine_similarity': 0.843828983977437, 'rouge1': 0.5670710890461841, 'rouge2': 0.33894193184932403, 'rougeL': 0.4422144995671302, 'rougeLsum': 0.4819061935577654}
+2026-05-26 10:42:32,396 — __main__ — INFO — Processing adapter: epoch_6
+2026-05-26 10:46:11,066 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:47:00,804 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 10:47:00,804 — __main__ — INFO — Similarity scores: {'cer': 0.6366487826935928, 'meteor': 0.4900311609906432, 'chrf': 51.63764026921546, 'sacrebleu': 45.81005210226329, 'nist_mt': 3.847142076427302, 'bertscore': 0.9069172143936157, 'cosine_similarity': 0.841779052093625, 'rouge1': 0.5572223126588037, 'rouge2': 0.32461662986515605, 'rougeL': 0.43154804940097446, 'rougeLsum': 0.4717442260958078}
+2026-05-26 10:47:00,804 — __main__ — INFO — Processing adapter: epoch_7
+2026-05-26 10:50:33,646 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:51:36,388 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 10:51:36,388 — __main__ — INFO — Similarity scores: {'cer': 0.6309954742356388, 'meteor': 0.49658259964415025, 'chrf': 52.28934625766294, 'sacrebleu': 45.7304478273288, 'nist_mt': 3.889541723698744, 'bertscore': 0.9078413248062134, 'cosine_similarity': 0.8430207915604114, 'rouge1': 0.5614920233812412, 'rouge2': 0.32844173129548093, 'rougeL': 0.4348783228181086, 'rougeLsum': 0.47538474498908245}
+2026-05-26 10:51:36,389 — __main__ — INFO — Processing adapter: epoch_8
+2026-05-26 10:55:58,593 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 10:56:50,774 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 10:56:50,775 — __main__ — INFO — Similarity scores: {'cer': 0.6315592784833894, 'meteor': 0.496293864750372, 'chrf': 52.21290633615487, 'sacrebleu': 45.607186700510965, 'nist_mt': 3.8966415220418575, 'bertscore': 0.9080978631973267, 'cosine_similarity': 0.8418260522186756, 'rouge1': 0.5623256118660869, 'rouge2': 0.32828578083862103, 'rougeL': 0.434647746877554, 'rougeLsum': 0.4771298049125412}
+2026-05-26 10:56:50,884 — __main__ — INFO — Processing adapter: epoch_9
+2026-05-26 11:01:35,970 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 11:02:40,794 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 1708 MB
+2026-05-26 11:02:40,794 — __main__ — INFO — Similarity scores: {'cer': 0.6317494941876373, 'meteor': 0.4945684198988646, 'chrf': 52.1717519774416, 'sacrebleu': 45.430590455742866, 'nist_mt': 3.8744291088491165, 'bertscore': 0.9071060419082642, 'cosine_similarity': 0.8408119888976217, 'rouge1': 0.5593610145560175, 'rouge2': 0.3279245521738991, 'rougeL': 0.43420784304883814, 'rougeLsum': 0.4742933491953961}
+2026-05-26 11:02:41,474 — __main__ — INFO — Best adapter: epoch_3 with scores: {'sacrebleu': 49.18710465339442, 'rouge1': 0.5758410626677031, 'rouge2': 0.34918880915737316, 'rougeL': 0.4539522669263194, 'rougeLsum': 0.4928964392319366, 'meteor': 0.5038762109715672, 'bertscore': 0.9111753106117249, 'cer': 0.6282421100480029, 'nist_mt': 3.9336894758618683, 'chrf': 52.703560673445935, 'cosine_similarity': 0.8429934449493885}
+2026-05-26 11:02:41,474 — __main__ — INFO — Regenerating output for the best adapter...
+2026-05-26 11:07:06,865 — __main__ — INFO — Max GPU memory occupied during output generation: 1708 MB
+2026-05-26 11:07:07,900 — __main__ — INFO — Done.

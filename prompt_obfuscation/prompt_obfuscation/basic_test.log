@@ -1,0 +1,8 @@
+2026-05-25 07:18:05,572 — src.logging_config — INFO — Logging configured. Log file: basic_test.log, Level: INFO
+2026-05-25 07:18:07,496 — datasets — INFO — PyTorch version 2.7.0 available.
+2026-05-25 07:19:15,771 — src.model — INFO — Model and tokenizer loaded successfully.
+2026-05-25 07:19:19,536 — huggingface_hub.file_download — WARNING — Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-05-25 07:19:20,105 — data.loader — INFO — Dataset split into training (2 samples) and testing (2 samples).
+2026-05-25 07:19:30,135 — src.output_generation — INFO — Max GPU memory occupied during output generation: 9728 MB
+2026-05-25 07:19:34,498 — huggingface_hub.file_download — WARNING — Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-05-25 07:19:53,591 — src.output_similarity — INFO — Max GPU memory occupied during similarity computation: 9730 MB
